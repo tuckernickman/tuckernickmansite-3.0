@@ -29,16 +29,16 @@
                     <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="archive.html">Archive</a>
+                    <a class="nav-link" href="archive.php">Archive</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="Portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="beginning.html">Biomorph</a>
+                    <a class="nav-link" href="beginning.php">Biomorph</a>
                 </li>
                 
             </ul>
@@ -47,31 +47,53 @@
         </div>
     </nav>
 <section>
-    <div class="container-fluid" id="aboutContent">
-        <div id="aboutMe" class="textParagraph">
+    <div class="container-fluid col" id="aboutContent">
+        <div id="textParagraph">
             <p class> Tucker Nickman is an artist, designer and aspiring web developer from Salt Lake City, with ten years of dance and creative experience. After earning their BFA of Stage Dance in 2018, in Berlin, Germany, they left to continue pursuing other creative outlets in Amsterdam and Utah. They are currently based here and working on various ongoing projects.</p>
         </div>
-        <div id="aboutMe" class="textParagraph">
+        <div id="textParagraph">
             <button class="btn btn-outline-dark" onclick="myFunction()" id="demo">click here</button>
         </div>
 </section>
-        <div id="proExp" class="textParagraph">
-            <h2> Professional Experience </h2>
-            <table class="table">
-            <h2>Work Experience</h2>
-            <tr>
-                <td colspan="2">Host/Busser</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="2"><a href="http://copperkitchenslc.com/home" style="padding:0;" target="_blank">Copper Kitchen,</a> Holladay 2019-2020</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Greeting Guests, Assuring Quality of Experience, Bookings, Cleaning, Organizing Seating Arrangements, Using POS, Fulfilling Guest Requests</td>
-            </tr>
-            </table>
-            <br>
+<section>
+    <div class="col">
+        <h2>
+            Professional Experience
+        </h2>
+        <h3>
+            Host/Busser, <a href="http://copperkitchenslc.com/home" style="padding:0;" target="_blank">Copper Kitchen,</a> Holladay 2019-2020
+        </h3>
+        <p>
+            <?php
+                function buildString($stringArray){
+                    $result = "";
+                    foreach($stringArray as $item){
+                        $result .= $item.", ";
+                    }
+                    return rtrim($result, ", ");
+                }
+                function buildListString($listArray){
+                    $result = "";
+                    foreach($listArray as $item_key => $item_value){
+                        $result .= $item_key.": ".buildString($item_value)."<br>";
+                    }
+                    return rtrim($result, "<br>");
+                }
+
+                $experience = ["Greeting Guests, Assuring Quality of Experience, Making Reservations, Cleaning, Organizing Seating Arrangements, Serving Guests"];
+                $hobbies = ["Inside" => ["Gaming", "Listening to Music", "Making Art"], "Outside" => ["Hiking", "Dancing", "Climbing"]];
+            ?>
+            <h4>Skills</h4>
+            <?php
+             echo buildString($experience)
+             ?>
+            <h2>Hobbies</h2>
+            <?php
+             echo buildListString($hobbies)
+             ?>
+        </p>
+    </div>
+</section>
 
             <table class="table">
             <h2 id="exhibitionsHeader">Exhibitions</h2>

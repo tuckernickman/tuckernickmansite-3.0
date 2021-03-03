@@ -28,16 +28,16 @@
                     <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="archive.html">Archive</a>
+                    <a class="nav-link" href="archive.php">Archive</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="Portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="beginning.html">Biomorph</a>
+                    <a class="nav-link" href="beginning.php">Biomorph</a>
                 </li>
             </ul>
             </div>
