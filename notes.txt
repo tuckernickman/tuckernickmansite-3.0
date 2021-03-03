@@ -1,0 +1,299 @@
+NOTES
+
+
+<!-- 2021 -->
+    <section class="banner second d-flex align-items-center position-relative">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/gsl_1.1.2.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/MOAB_1.1.1.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/MOAB_2.2.1.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/needles_1.2.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/needles_5.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/rozel_point5.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/silver_island_4.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2021/YS_2.1.1.jpg" alt="biomorph animation" />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+<!-- 2020 -->
+    <section class="banner second d-flex align-items-center position-relative">
+        <div class="container">
+            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/8k4.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/bag.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/canyonlands.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/cliff.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/felsen.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/foam.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/grandprismatic.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/great salt lake 1.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/grenze.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/hotspring1.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/Hugeln.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/juniperblitz.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/juniperperlen.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/km2.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/knocheprism.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/komischemischung1.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/leib.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/metallabfall.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/mudpot.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/nachtpflanze.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/nightmoab.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/norris.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/northyellowstone.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/plastics.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/pokeybranch.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/pools1.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/pools2.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/pools3.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/rockwbranch.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/rotewelle.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/simcottonbloom.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/sonnenugjuniper.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2020/steine1.jpg" alt="biomorph animation" />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2019 -->
+
+    <section class="banner second d-flex align-items-center position-relative">
+        <div class="container">
+            <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/Wuste.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/lookout.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/kraschhh_2.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/IMG_3817edit.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/IMG_3632.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/IMG_3556.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/desert001.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/desert003.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/ganstill.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/desert003.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/desert001.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/bones00072.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/1.1.7.jpg" alt="biomorph animation" />
+                    </div>
+                    <div class="carousel-item">
+                        <img id="backgroundImage" class="d-block w-100" src="assets/img/2019/1.1.5.jpg" alt="biomorph animation" />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    ------------------------------------
+
+
+<div id="main-wrapper" class="layout-main-wrapper">
+        <div id="main" class="container-fluid">
+            <div class="row row-offcanvas row-offcanvas-left clearfix">
+                <main class="main-content col" id="content" role="main">
+                    <section class="section">
+                        <a id="main-content" tabindex="-1"></a>
+                        <div  class="block block-system block-system-main-block">
+                            <div class="block-inner">
+                                <div class="content">
+                                    <div class="sections">
+                                        <section>
+                                            <h2>Portfolio</h2>
+                                            <div class="section-content perspective">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <a href="/2021.html" class="field-group-link project-link d-block p-visible">
+                                                            <div class="project-img bg">
+                                                                <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
+                                                            </div>
+                                                            <div class="project-year">
+                                                                <small>
+                                                                    Needles Biomorph, 2021
+                                                                </small>
+                                                            </div>
+                                                            <h3 class="font1 font-change">2021</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <a href="/2020.html" class="field-group-link project-link d-block p-visible">
+                                                            <div class="project-img bg">
+                                                                <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
+                                                            </div>
+                                                            <div class="project-year">
+                                                                <small>
+                                                                    Needles Biomorph, 2021
+                                                                </small>
+                                                            </div>
+                                                            <h3 class="font1 font-change">2021</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <a href="/2019.html" class="field-group-link project-link d-block p-visible">
+                                                            <div class="project-img bg">
+                                                                <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
+                                                            </div>
+                                                            <div class="project-year">
+                                                                <small>
+                                                                    Needles Biomorph, 2021
+                                                                </small>
+                                                            </div>
+                                                            <h3 class="font1 font-change">2021</h3>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </main>
+            </div>
+        </div>
+    </div>
+
+    /////////////////////////////////
+
+
+    

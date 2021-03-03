@@ -1,0 +1,33 @@
+/* About.html */
+div > .aboutContent {
+    width:100%;
+    margin:0;
+}
+
+div.textParagraph {
+    padding:10px;
+    margin:0;
+    text-align:center;
+}
+
+label {
+    padding:1px;
+}
+
+input {
+    padding:1px;
+}
+
+.nameButton {
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border:none;
+    cursor:pointer;
+    overflow:hidden;
+    outline:none;
+    font-family: 'Open Sans', sans-serif, 'Raleway', 'Roboto Slab', 'Nunito Sans';
+}
+
+.required-input {
+    background-color: #ffb3b3;
+}

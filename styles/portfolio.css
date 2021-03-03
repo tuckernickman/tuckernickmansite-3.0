@@ -1,0 +1,37 @@
+/* Portfolio.html */
+#main {
+    background-image: url('assets/img/1160.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.outer-wrapper {
+    display:block;
+    position:absolute;
+    overflow-y:auto scroll;
+    scrollbar-width: 5px;
+    -ms-overflow-style:none;
+}
+
+div{
+    text-align:center;
+}
+
+.project-img{
+    margin-bottom: .4rem;
+    position:relative;
+    overflow:hidden;
+    min-height:75vh;
+    height:auto;
+}
+
+.img-fluid{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
