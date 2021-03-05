@@ -56,11 +56,11 @@
             ?>
             <h4>Skills</h4>
             <?php
-             echo buildString($experience)
+             echo buildString($experience);
              ?>
             <h2>Hobbies</h2>
             <?php
-             echo buildListString($hobbies)
+             echo buildListString($hobbies);
              ?>
         </p>
     </div>

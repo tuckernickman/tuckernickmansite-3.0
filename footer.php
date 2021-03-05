@@ -1,0 +1,1 @@
+<p>Copyright © TJ Nickman <?php echo date("Y"); ?></p>

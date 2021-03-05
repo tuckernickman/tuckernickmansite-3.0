@@ -19,3 +19,8 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+a:hover>.row>div{
+    z-index:4;
+    background-color:#c8ee1fe1;
+}

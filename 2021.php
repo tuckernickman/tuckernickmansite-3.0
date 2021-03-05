@@ -15,104 +15,15 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" id="grad">
-          <a class="navbar-brand" href="Index.html">Tucker Nickman</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.php">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="archive.php">Archive</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Portfolio.php">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="beginning.php">Biomorph</a>
-                </li>
-            </ul>
-            </div>
-          </div>
-        </div>
-    </nav>
+    <?php include "menu.php"; ?>
 
     <!--home page-->
 
-    <div id="main-wrapper" class="layout-main-wrapper">
-        <div id="main" class="container-fluid">
-            <div class="row row-offcanvas row-offcanvas-left clearfix">
-                <main class="main-content col" id="content" role="main">
-                    <section class="section">
-                        <a id="main-content" tabindex="-1"></a>
-                        <div  class="block block-system block-system-main-block">
-                            <div class="block-inner">
-                                <div class="content">
-                                    <div class="sections">
-                                        <section>
-                                            <h2>Portfolio</h2>
-                                            <div class="section-content perspective">
-                                                <div class="row">
-                                                    <div class="col-sm-4">
-                                                        <a href="/2021.html" class="field-group-link project-link d-block p-visible">
-                                                            <div class="project-img bg">
-                                                                <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
-                                                            </div>
-                                                            <div class="project-year">
-                                                                <small>
-                                                                    Needles Biomorph, 2021
-                                                                </small>
-                                                            </div>
-                                                            <h3 class="font1 font-change">2021</h3>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        <a href="/2020.html" class="field-group-link project-link d-block p-visible">
-                                                            <div class="project-img bg">
-                                                                <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
-                                                            </div>
-                                                            <div class="project-year">
-                                                                <small>
-                                                                    Needles Biomorph, 2021
-                                                                </small>
-                                                            </div>
-                                                            <h3 class="font1 font-change">2021</h3>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        <a href="/2019.html" class="field-group-link project-link d-block p-visible">
-                                                            <div class="project-img bg">
-                                                                <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
-                                                            </div>
-                                                            <div class="project-year">
-                                                                <small>
-                                                                    Needles Biomorph, 2021
-                                                                </small>
-                                                            </div>
-                                                            <h3 class="font1 font-change">2021</h3>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+    <?php include "section1.php"?>
 
-                </main>
-            </div>
-        </div>
-    </div>
+    <?php include "" ?> 
+
+
     <!-- Optional JavaScript
     <script src="js\newscript1.js"></script>
     -->
