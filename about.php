@@ -15,37 +15,8 @@
 
 </head>
 <body>
+    <?php include "menu.php"; ?>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" id="grad">
-          <a class="navbar-brand" href="Index.html">Tucker Nickman</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.php">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="archive.php">Archive</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Portfolio.php">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="beginning.php">Biomorph</a>
-                </li>
-                
-            </ul>
-            </div>
-          </div>
-        </div>
-    </nav>
 <section>
     <div class="container-fluid col" id="aboutContent">
         <div id="textParagraph">
