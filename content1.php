@@ -1,5 +1,5 @@
 <div class="col-sm-4">
-                                                        <a href="/2021.html" class="field-group-link project-link d-block p-visible">
+                                                        <a href="/2021.php" class="field-group-link project-link d-block p-visible">
                                                             <div class="project-img bg">
                                                                 <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
                                                             </div>
@@ -12,7 +12,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-4">
-                                                        <a href="/2020.html" class="field-group-link project-link d-block p-visible">
+                                                        <a href="/2020.php" class="field-group-link project-link d-block p-visible">
                                                             <div class="project-img bg">
                                                                 <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
                                                             </div>
@@ -25,7 +25,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-4">
-                                                        <a href="/2019.html" class="field-group-link project-link d-block p-visible">
+                                                        <a href="/2019.php" class="field-group-link project-link d-block p-visible">
                                                             <div class="project-img bg">
                                                                 <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
                                                             </div>

@@ -10,9 +10,14 @@
 
 #c1d5ea Spindle
 #f7791a Ecstacy
+
+a {
+    color:#2d2f45;   
+}
 */ 
 
 body {
+    background-color:#e5e9d9;
     background-image: url('assets/img/1160.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +25,22 @@ body {
     -o-background-size: cover;
 }
 
-a:hover>.row>div{
+a:hover>div{
     z-index:4;
     background-color:#c8ee1fe1;
+}
+
+p, a, label, input, textarea, td, th, nav, h4, h2, h1, header {
+    color:#5a22d4;
+    font-family:'Raleway', 'Roboto Slab', 'Nunito Sans', 'Open Sans', 'sans-serif';
+}
+
+
+a:hover {
+    color:#fb4b0b;
+}
+
+.font-change {
+    font-family:'Nunito Sans', 'Open Sans', 'Raleway', 'Roboto Slab', 'sans-serif';
+
 }

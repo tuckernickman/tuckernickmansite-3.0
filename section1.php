@@ -1,23 +1,46 @@
-<section class="section">
-                        <a id="main-content" tabindex="-1"></a>
-                        <div  class="block block-system block-system-main-block">
-                            <div class="block-inner">
-                                <div class="content">
-                                    <div class="sections">
-                                        <?php 
-                                            $years("2021.php" => "2021", "2020.php" => "2019" => "1029.php");    
-                                            $posts("2021" => "21content.php", "2020" => "20content", "2019" => "19content");
-
-                                            if ($years_val == $posts_key) {
-                                                include $posts_val;
-                                            } else {
-                                                include null;
-                                            } 
-                                        
-                                        
-                                        ?>
-                                    </div>
-                                </div>
-                            </div>
+<section>
+    <h2>Portfolio</h2>
+        <div class="section-content perspective">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/2021.html" class="field-group-link project-link d-block p-visible">
+                        <div class="project-img bg">
+                            <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
                         </div>
-                    </section>
+                        <div class="project-year">
+                            <small>
+                                Needles Biomorph, 2021
+                            </small>
+                        </div>
+                            <h3 class="font1 font-change">2021</h3>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="/2020.html" class="field-group-link project-link d-block p-visible">
+                        <div class="project-img bg">
+                            <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
+                        </div>
+                        <div class="project-year">
+                            <small>
+                                Needles Biomorph, 2021
+                            </small>
+                        </div>
+                        <h3 class="font1 font-change">2021</h3>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="/2019.html" class="field-group-link project-link d-block p-visible">
+                        <div class="project-img bg">
+                            <img src="assets/img/2021/needles_5.jpg" alt="needles and cyptobiotic soil">
+                        </div>
+                        <div class="project-year">
+                        <small>
+                            Needles Biomorph, 2021
+                        </small>
+                        </div>
+                    <h3 class="font1 font-change">2021</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
