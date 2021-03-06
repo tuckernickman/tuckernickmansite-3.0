@@ -15,52 +15,27 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" id="grad">
-          <a class="navbar-brand" href="Index.html">Tucker Nickman</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="archive.html">Archive</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="beginning.html">Biomorph</a>
-                </li>
-                
-            </ul>
-            </div>
-          </div>
-        </div>
-    </nav>
-
-    
-    
+    <?php include "menu.php"; ?>
 
 
-    <!-- Optional JavaScript
-    <script src="js\newscript1.js"></script>
-    -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- P5.js script-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
-    <script src="js/alert1.js" ></script>
+    <!--home page-->
+    <?php include "section1.php"; ?> 
+
+    <div class="featured-bottom">
+        <aside class="container-fluid clearfix" role="complimentary">
+            <section class="row region region-featured-bottom-first">
+                <div id="block-flippyblock" class="block block-flippy block-flippy-block">
+                    <div class="block-inner">
+                        <ul class="content">
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <?php include "footer.php"; ?>
 </body>
 </html>

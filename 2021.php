@@ -24,5 +24,6 @@
     <?php include "content1.php"; ?> 
 
     <?php include "footer.php"; ?>
+    
 </body>
 </html>
