@@ -7,11 +7,11 @@
     -ms-overflow-style:none;
 }
 
-div{
+div {
     text-align:center;
 }
 
-.project-img{
+.project-img {
     margin-bottom: .4rem;
     position:relative;
     overflow:hidden;
@@ -19,7 +19,7 @@ div{
     height:auto;
 }
 
-.img-fluid{
+.img-fluid {
     position:absolute;
     top:50%;
     left:50%;
