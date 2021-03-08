@@ -24,15 +24,18 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-
-a:hover>div{
-    z-index:4;
+#content{
+    display:block;
+}
+#content:hover{
     background-color:#c8ee1fe1;
+    padding:5px;
+    border-radius: 2px;
 }
 
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, header {
     color:#5a22d4;
-    font-family:'Raleway', 'Roboto Slab', 'Nunito Sans', 'Open Sans', 'sans-serif';
+    font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif';
 }
 
 
