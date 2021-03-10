@@ -110,24 +110,25 @@
             <div class="col">
                 <h2> Contact </h2>
             </div>
-            <form id="contactForm" class="col-lg-8" method="post">
+            <form id="contactForm" class="col-lg-8" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>">
                 <div class="form-group">
                     <label for="fname">First Name</label>
-                    <input id="fname" type="text" class="form-control" placeholder="First name" aria-describedby="First name">
+                    <input id="fname" type="text" name="fname" class="form-control" placeholder="First name" aria-describedby="First name">
                 </div>
                 <div class="form-group">
                     <label for="lname">First Name</label>
-                    <input id="lname" type="text" class="form-control" placeholder="Last name" aria-describedby="Last name">
+                    <input id="lname" type="text" name="lname" class="form-control" placeholder="Last name" aria-describedby="Last name">
+                </div>
+                <div>
+
                 </div>
                <div class="form-group">
                     <label for="inputEmail" class="form-label">Email</label>
-                    <input id="inputEmail" type="email" class="form-control">
+                    <input id="inputEmail" type="email" name="email" class="form-control">
                </div>
                <div class="col-12">
                 <button type="submit" class="btn btn-outline-dark">Submit</button>
               </div>
-
-                  
             </form>
         </div>
     </div>
@@ -135,3 +136,22 @@
     <?php include "footer.php"; ?>
 </body>
 </html>
+
+<?php 
+$result="";
+$fname = $lname = $email = "";
+if ($_SERVER['REQUEST_METHOD'] == "POST"){
+   $fname = cleanse_data($_POST['fname']);
+   $lname = cleanse_data($_POST['lname']);
+   $email = cleanse_data($_POST['email']);
+
+    $targetEmail = "tucker.nickman@aol.com";
+    $subject = "New Contact Entry from ".$fname." ".$lname;
+    $body = "New Contact Form Entry: <br>Name: ".$fname." ".$lname."<br>Email: ".$email;
+    
+    mail($targetEmail, $subject, $body);
+}
+function cleanse_data($data){
+    return htmlspecialchars(stripslashes(trim($data)));
+}
+?>

@@ -27,7 +27,8 @@
                 <div id="block-flippyblock" class="block block-flippy block-flippy-block">
                     <div class="block-inner">
                         <ul class="content">
-                            
+                            <?php include "content21.php"?>
+                            <?php echo $archive?>
                         </ul>
                     </div>
 

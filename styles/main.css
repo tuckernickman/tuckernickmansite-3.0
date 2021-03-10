@@ -26,14 +26,14 @@ body {
 }
 #content{
     display:block;
-}
-#content:hover{
-    background-color:#c8ee1fe1;
     padding:5px;
     border-radius: 2px;
 }
+#content:hover{
+    background-color:#c8ee1fe1;
+}
 
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, header {
+p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header {
     color:#5a22d4;
     font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif';
 }

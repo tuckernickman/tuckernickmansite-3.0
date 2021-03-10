@@ -78,7 +78,6 @@
         "assets/img/artifacts/Ebene_25.jpg"
     ];
 
-    $biomorphVids = [
-        ""
-    ]
+    $displayImgs -> createElement ('div', $div);
+    $dom -> appendChild($div);
 ?>
