@@ -65,7 +65,7 @@
         </p>
     </div>
 </section>
-
+        <div class="col">
             <table class="table">
             <h2 id="exhibitionsHeader">Exhibitions</h2>
             <tr>
@@ -92,40 +92,52 @@
 
         </div>
 
-        <div class="textParagraph">
+        <div class="col">
             <h2> Languages </h2>
             <p id="languages"></p>
         </div>
         
-        <div class="textParagraph">
+        <div class="col">
             <h2> Resume </h2>
             <a href="assets/pdf/Resume 2020.pdf" download> To download my full resume, click here.</a>
         </div>
 
         <div class="col">
-            <div id="alertBox" class="alert alert-danger alert-dismissable fade show d-none">
-                <button type="button" class="close" onclick="hideAlert();">&times;</button>
+            <div id="alertBox" class="required-input alert alert-danger alert-dismissable fade show d-none">
+                <button type="button" class="close" onclick="closeAlert();">&times;</button>
                 <strong>Stop!</strong> Please fill out all of the fields correctly.
             </div>
-            <div class="col">
+            <div>
                 <h2> Contact </h2>
             </div>
-            <form id="contactForm" class="col-lg-8" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>">
+
+            <form name="contactForm" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" onsubmit="event.preventDefault(); validateForm();">
+                
                 <div class="form-group">
                     <label for="fname">First Name</label>
-                    <input id="fname" type="text" name="fname" class="form-control" placeholder="First name" aria-describedby="First name">
+                    <input id="fname" type="text" name="fname" class="form-control"
+                    placeholder="First name" aria-describedby="First name">
                 </div>
                 <div class="form-group">
-                    <label for="lname">First Name</label>
-                    <input id="lname" type="text" name="lname" class="form-control" placeholder="Last name" aria-describedby="Last name">
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" name="lname" class="form-control"
+                    placeholder="Last name" aria-describedby="Last name">
                 </div>
-                <div>
-
-                </div>
-               <div class="form-group">
+                <div class="form-group">
                     <label for="inputEmail" class="form-label">Email</label>
                     <input id="inputEmail" type="email" name="email" class="form-control">
                </div>
+               <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="text" name="phone" class="form-control"
+                    placeholder="Phone Number" aria-describedby="Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <label for="txtReasonDetail">Enter Your Message Here</label>
+                    <textarea id="txtReasonDetail" type="text" name="txtReasonDetail" class="form-control"
+                    placeholder="Enter Your Message Here" aria-describedby="txtReasonDetail"></textarea>
+                </div>
                <div class="col-12">
                 <button type="submit" class="btn btn-outline-dark">Submit</button>
               </div>
@@ -141,16 +153,22 @@
 $result="";
 $fname = $lname = $email = "";
 if ($_SERVER['REQUEST_METHOD'] == "POST"){
-   $fname = cleanse_data($_POST['fname']);
-   $lname = cleanse_data($_POST['lname']);
-   $email = cleanse_data($_POST['email']);
+    $fname = cleanse_data($_POST['fname']);
+    $lname = cleanse_data($_POST['lname']);
+    $email = cleanse_data($_POST['email']);
+    $phone = cleanse_data($_POST['phone']);
+    $txtReasonDetail = cleanse_data($_POST['txtReasonDetail']);
 
     $targetEmail = "tucker.nickman@aol.com";
     $subject = "New Contact Entry from ".$fname." ".$lname;
-    $body = "New Contact Form Entry: <br>Name: ".$fname." ".$lname."<br>Email: ".$email;
+    $body = "<html><body>New Contact Form Entry: <br>Name: ".$fname." ".$lname."<br>Email: ".$email."<br>Phone: ".$phone."<br>Message: ".$txtReasonDetail."</html></body>";
     
+    $headers = "MIME-Version:1.0" . "\r\n";
+    $headers .= "Content-type: text/html; charset-iso-8859-1" . "\r\n";
+
     mail($targetEmail, $subject, $body);
 }
+
 function cleanse_data($data){
     return htmlspecialchars(stripslashes(trim($data)));
 }
