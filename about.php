@@ -151,7 +151,8 @@
 
 <?php 
 $result="";
-$fname = $lname = $email = "";
+$fname = $lname = $email = $phone = $txtReasonDetail = "";
+
 if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $fname = cleanse_data($_POST['fname']);
     $lname = cleanse_data($_POST['lname']);
