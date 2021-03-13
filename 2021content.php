@@ -92,9 +92,9 @@ function prntImgArr($strArray)
 {
 foreach ($strArray as $i=>$strArray){
 $content[$i] = '<div class="col-sm-4">
-<a href="/2021.php" class="field-group-link project-link d-block p-visible">
+<a href="" class="field-group-link project-link d-block p-visible">
     <div class="project-img bg">
-        <img class="img-fluid" src='.$strArray[$i].'alt="needles and sandstone">
+        <img id="imgMorph "class="img-fluid" src='.$strArray[$i].'alt="needles and sandstone">
     </div>
     <div class="project-year">
         <small>

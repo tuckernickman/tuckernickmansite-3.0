@@ -15,7 +15,8 @@ a {
     color:#2d2f45;   
 }
 */ 
-#id {    background-color:#f7791a;
+#id {
+    background-color:#5c72ee;
 }
 body {
     background-color:#e5e9d9;
@@ -25,9 +26,6 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-.bg-light{
-    background-color:#5c72ee;
-}
 #content{
     display:block;
     padding:5px;
@@ -36,9 +34,8 @@ body {
 #content:hover{
     background-color:#c8ee1fe1;
 }
-
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header {
-    color:#5a22d4;
+    color:#5c72ee;
     font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif';
 }
 

@@ -1,4 +1,0 @@
-; {{{ The following lines were automatically added by DreamHost
-zend_extension=opcache.so
-display_errors = on
-; }}} That's all from DreamHost

@@ -1,12 +1,12 @@
 <?php 
 
-    $section = [
-        "div" => 
-        "item" =
-        fill in html elements in this php array
-    ];
+    // $section = [
+    //     "div" => 
+    //     "item" =
+    //     fill in html elements in this php array
+    // ];
 
-    echo section containing $content 
+    // echo section containing $content 
 
 
     $domAttribute = $dom -> createAttribute('type');

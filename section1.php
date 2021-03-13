@@ -5,7 +5,7 @@
             <div id="content" class="col-sm-4">
                 <a href="/2021.php" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
-                        <img id="imgMorph" class="img-fluid" src="assets/img/2021/needles_5.jpg" alt="needles and sandstone">
+                        <img class="img-fluid" src="assets/img/2021/needles_5.jpg" alt="needles and sandstone">
                     </div>
                     <div class="project-year">
                         <small>
