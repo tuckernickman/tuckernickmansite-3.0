@@ -7,7 +7,7 @@
     // ];
 
     // echo section containing $content 
-
+    
 
     $domAttribute = $dom -> createAttribute('type');
     $domAttribute -> value = 'text/css';
@@ -44,6 +44,6 @@
 
     ];
 
-    $videos->loop()
+    $videos->
 
 ?>
