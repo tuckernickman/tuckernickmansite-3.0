@@ -5,7 +5,7 @@
             <div id="content" class="col-sm-4">
                 <a href="/2021.php" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/needles_5.jpg" alt="needles and sandstone">
+                        <img id="imgMorph" class="img-fluid" src="assets/img/2021/needles_5.jpg" alt="needles and sandstone">
                     </div>
                     <div class="project-year">
                         <small>
@@ -44,43 +44,3 @@
         </div>
     </div>
 </section>
-
-
-<?php 
-
-$div = [
-    "<div>".$innerContentRef."</div>"
-];
-
-$innerContentRef = [
-    "<a".$href.$class.">"."$imgDiv.$title.$year"."</a>"
-];
-
-$href = [
-    "/2021.php",
-    "/2020.php",
-    "/2019.php"
-];
-
-cycleThrough(i = 0; i < this.length; i .= ){
-
-};
-
-$title = [
-    
-];
-<div id="content" class="col-sm-4">
-    <a href="/2020.php" class="field-group-link project-link d-block p-visible">
-        <div class="project-img bg">
-            <img class="img-fluid" src="assets/img/2020/cliff.jpg" alt="cliff ledge">
-        </div>
-        <div class="project-year">
-            <small>
-                Cliff, 2020
-            </small>
-        </div>
-        <h3 class="font1 font-change">2020</h3>
-    </a>
-</div>
-
-?>

@@ -15,7 +15,8 @@ a {
     color:#2d2f45;   
 }
 */ 
-
+#id {    background-color:#f7791a;
+}
 body {
     background-color:#e5e9d9;
     background-image: url('assets/img/1160.jpg') no-repeat center center fixed;
@@ -23,6 +24,9 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.bg-light{
+    background-color:#5c72ee;
 }
 #content{
     display:block;

@@ -19,27 +19,9 @@
 
     <!--home page-->
 
-    <div id="main-wrapper" class="layout-main-wrapper">
-        <div id="main" class="container-fluid">
-            <div class="row row-offcanvas row-offcanvas-left clearfix">
-                <main class="main-content col" id="content" role="main">
-                    <section class="section">
-                        <a id="main-content" tabindex="-1"></a>
-                        <div  class="block block-system block-system-main-block">
-                            <div class="block-inner">
-                                <div class="content">
-                                    <div class="sections">
-                                        <?php include "section1.php"; ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+    <?php include "section1.php"; ?>
 
-                </main>
-            </div>
-        </div>
-    </div>
+    <?php include "content1.php"; ?> 
     
     <?php include "footer.php"; ?>
 </body>

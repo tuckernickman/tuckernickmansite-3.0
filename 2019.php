@@ -17,8 +17,16 @@
 <body>
     <?php include "menu.php"; ?>
 
-    <!--home page-->
+    <?php include "section1.php"; ?>
 
+    <?php include "content1.php"; ?> 
+    
+    <!--home page-->
+<?php
+    include "2021content.php";
+    $prntImgArr = prntImgArr($images19);
+    echo $prntImgArr;
+?>
 
     <?php include "footer.php"; ?>
 </body>
