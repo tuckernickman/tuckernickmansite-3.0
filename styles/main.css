@@ -20,7 +20,7 @@ a {
 }
 body {
     background-color:#e5e9d9;
-    background-image: url('assets/img/1160.jpg') no-repeat center center fixed;
+    background-image:url('/assets/img/1160.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
