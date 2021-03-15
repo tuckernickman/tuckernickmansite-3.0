@@ -19,10 +19,12 @@
 
     <!--home page-->
 
-    <?php include "section1.php"; ?>
+    <?php //include "section1.php"; ?>
 
-    <?php include "content1.php"; ?> 
-    
+    <?php include "imgGrid20.php"?>
+
+    <?php //include "content1.php"; ?> 
+
     <?php include "footer.php"; ?>
 </body>
 </html>

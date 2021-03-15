@@ -17,9 +17,12 @@
 <body>
     <?php include "menu.php"; ?>
 
-    <?php include "section1.php"; ?>
+    <?php //include "section1.php"; ?>
 
-    <?php include "content1.php"; ?> 
+    <?php include "imgGrid19.php"?>
+
+    <?php //include "content1.php"; ?> 
+
     
     <!--home page-->
 <?php

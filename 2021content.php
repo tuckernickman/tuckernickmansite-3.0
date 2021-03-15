@@ -79,6 +79,7 @@
         "assets/img/artifacts/Ebene_25.jpg"
     ];
 
+    
 function loopThrough($strArray) {
     $imgElement = getElementById('imgMorph');
 
@@ -112,6 +113,19 @@ $rowWrapper = '<div class="row">'.$content[$i].$content[$i+1].$content[$i+2].'</
 return $rowWrapper;
 }
 
+$content2[$i] = '<div class="col">'.
+'<a '.$href.' class="field-group-link project-link d-block p-visible">'.
+    '<div class="project-img bg">'.
+        '<img id="imgMorph "class="img-fluid" src='.$strArray[$i].'alt="'.$imgAlt.'">'.'
+    </div>'.
+    '<div class="project-year">
+        <small>
+                '.$caption.'
+        </small>
+    </div>
+        <h3 class="font1 font-change">'.$contentYear.'</h3>
+</a>'.'
+</div>';
 
 ?>
 

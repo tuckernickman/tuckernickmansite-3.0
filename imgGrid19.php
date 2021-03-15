@@ -2,7 +2,7 @@
     <h2>2021</h2>
     <div class="section-content perspective">
         <div class="row col">
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/gsl_1.1.2.jpg" alt="Great Salt Lake Biomorph">
@@ -14,7 +14,7 @@
                     </div>
                 </a>
             </div>
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/MOAB_1.1.1.jpg" alt="moab biomorph 1">
@@ -26,7 +26,7 @@
                     </div>
                 </a>
             </div>
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/MOAB_2.2.1.jpg" alt="moab biomorph 2">
@@ -41,21 +41,21 @@
     </div>
     <div class="section-content perspective">
         <div class="row col">
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/needles_1.2.jpg" alt="needles biomorph 1">
                     </div>
                 </a>
             </div>
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/needles_5.jpg" alt="needles biomorph 2">
                     </div>
                 </a>
             </div>
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/rozel_point5.jpg" alt="rozel point biomorph">
@@ -65,14 +65,14 @@
     </div>
     <div class="section-content perspective">
         <div class="row col">
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/silver_island_4.jpg" alt="silver island biomorph">
                     </div>
                 </a>
             </div>
-            <div id="content" class="col-sm">
+            <div id="content" class="col-sm-6">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2021/YS_2.1.1.jpg" alt="Yellow Stone Biomorph">
