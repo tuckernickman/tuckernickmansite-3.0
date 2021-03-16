@@ -1,7 +1,7 @@
 <section>
-    <h2>Portfolio</h2>
-    <div class="section-content perspective">
-        <div class="row col">
+    <h2 id="content">Portfolio</h2>
+    <div class="col section-content perspective">
+        <div class="row">
             <div id="content" class="col-sm-4">
                 <a href="/2021.php" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">

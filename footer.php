@@ -1,5 +1,6 @@
-
-
+<div class="col">
+    <p>Copyright © TJ Nickman <?php echo date("Y"); ?></p>
+</div>
 <!-- Optional JavaScript
 <script src="js\newscript1.js"></script>
 -->
@@ -13,6 +14,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
 <script src="js/alert1.js" ></script>
 <script src="js/namebox.js"></script>
-
-
-<p>Copyright © TJ Nickman <?php echo date("Y"); ?></p>

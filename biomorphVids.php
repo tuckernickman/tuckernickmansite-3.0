@@ -1,59 +1,52 @@
 <section>
-    <h2 id="content">2021</h2>
+    <h2 id="content">Videos </h2>
     <div class="col section-content perspective">
     <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/gsl_1.1.2.jpg" alt="Great Salt Lake Biomorph">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/jkGlOVjVbic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/MOAB_1.1.1.jpg" alt="moab biomorph 1">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/y8iatQlDi5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/MOAB_2.2.1.jpg" alt="moab biomorph 2">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/JE-GQxtVjGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/needles_1.2.jpg" alt="needles biomorph 1">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/CKNP2zSgQPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/needles_5.jpg" alt="needles biomorph 2">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/7fJJdFSSGn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/rozel_point5.jpg" alt="rozel point biomorph">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/nkZYeFkyAsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/silver_island_4.jpg" alt="silver island biomorph">
-                    </div>
-                </a>
-            </div>
-            <div id="content" class="col">
-                <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="project-img bg">
-                        <img class="img-fluid" src="assets/img/2021/YS_2.1.1.jpg" alt="Yellow Stone Biomorph">
+                    <div class="col">
+                        <iframe id="content" style="align-content:center;" width="560" height="315" src="https://www.youtube.com/embed/oeO8Jwg1vGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
@@ -61,22 +54,22 @@
 </section>
 
 <?php 
-    // $links = [
-    //     "2021.php" => ["2021content.php"],
-    //     "2020.php" => ["2020content.php"],
-    //     "2019.php" => ["2019content.php"]
-    // ];
+//    $videos = [
+//     $videos21 = [
+//         "https://www.youtube.com/embed/jkGlOVjVbic",
+//         "https://www.youtube.com/embed/y8iatQlDi5Q"
+//     ];
 
-    // $biomorph20 = [
-    //     "assets/img/2021/gsl_1.1.2.jpg",
-    //     "assets/img/2021/MOAB_1.1.1.jpg",
-    //     "assets/img/2021/MOAB_2.2.1.jpg",
-    //     "assets/img/2021/needles_1.2.jpg",
-    //     "assets/img/2021/needles_5.jpg",
-    //     "assets/img/2021/rozel_point5.jpg",
-    //     "assets/img/2021/silver_island_4.jpg",
-    //     "assets/img/2021/YS_2.1.1.jpg"
-    // ];
+//     $biomorphs20 = [
+//         "https://www.youtube.com/embed/JE-GQxtVjGs",
+//         "https://www.youtube.com/embed/CKNP2zSgQPo",
+//         "https://www.youtube.com/embed/7fJJdFSSGn0",
+//         "https://www.youtube.com/embed/nkZYeFkyAsw",
+//         "https://www.youtube.com/embed/oeO8Jwg1vGo"
+//     ];
+
+//     ];
+
 
     // function loopThrough($strArray) {
     //     $imgElement = getElementById('imgMorph');
