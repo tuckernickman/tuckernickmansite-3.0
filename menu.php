@@ -20,7 +20,7 @@
                     <a class="nav-link" href="portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="beginning.php">Biomorph</a>
+                    <a class="nav-link" href="videos.php">Videos</a>
                 </li>
                 
             </ul>
