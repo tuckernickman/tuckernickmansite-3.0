@@ -150,6 +150,9 @@
 </html>
 
 <?php 
+include "database.php";
+$tableName = "tnickman_form_response";
+
 $result="";
 $fname = $lname = $email = $phone = $txtReasonDetail = "";
 
@@ -159,6 +162,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $email = cleanse_data($_POST['email']);
     $phone = cleanse_data($_POST['phone']);
     $txtReasonDetail = cleanse_data($_POST['txtReasonDetail']);
+
+    contact_form_insert($tableName, $fname, $lname, $email, $phone, $message);
 
     $targetEmail = "tucker.nickman@aol.com";
     $subject = "New Contact Entry from ".$fname." ".$lname;
