@@ -8,7 +8,7 @@ function get_db_connection(){
     print_r($ini_data);
 
     try {
-        $conn = new PDO("mysql:host=ini_data[serverName];dbname=$ini_data[dbName]", $ini_data["userName"], $ini_data["password"]);
+        $conn = new PDO("mysql:host=$ini_data[serverName];dbname=$ini_data[dbName]", $ini_data["userName"], $ini_data["password"]);
         //set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Connected successfully";
