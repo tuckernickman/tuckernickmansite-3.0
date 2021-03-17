@@ -1,5 +1,5 @@
 <?php
-
+$tableName = "tnickman_form_response";
 create_table($tableName);
 
 function get_db_connection(){
@@ -7,7 +7,7 @@ function get_db_connection(){
     print_r($ini_data);
 
     try {
-        $conn = new PDO("mysql:host=$ini_data[serverName];dbname=$ini_data[dbName]", $ini_data["userName"], $ini_data["password"])
+        $conn = new PDO("mysql:host=$ini_data[serverName];dbname=$ini_data[dbName]", $ini_data["userName"], $ini_data["password"]);
         //set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Connected successfully";
@@ -57,5 +57,25 @@ function contact_form_insert($tableName, $fname, $lname, $email, $phone, $messag
         }
         $conn = null;
     }
+
+function get_content($nameOftable){
+    $conn = get_db_connection();
+    try{
+        $stmt = $conn->prepare("SELECT * FROM $nameOftable");
+        $stmt->execute();
+        // return $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        // set the resulting array to associative
+        $result =  $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        //prnt_r($stmt->fetchAll());
+
+        foreach($stmt->fetchAll() as $row) {
+            foreach($row as $data){
+                echo '<br>'.$data;
+            }
+        }
+    } catch (PDOException $e){
+        echo "Error: " . $e->getMessage();
+    }
+    $conn = null;
 }
 ?>
