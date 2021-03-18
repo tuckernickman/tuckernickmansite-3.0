@@ -1,6 +1,6 @@
 <?php 
-// include "database.php";
-$tableName = "tnickman_form_response";
+include "database.php";
+$ini_data = parse_ini_file("db.ini");
 
 $result="";
 $fname = $lname = $email = $phone = $txtReasonDetail = "";

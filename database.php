@@ -78,4 +78,21 @@ function get_content($nameOftable){
     }
     $conn = null;
 }
+
+// function drop_table($nameOftable){
+//     $conn = get_db_connection();
+//     try {
+//         //sql to create table
+//         $sql = "DROP TABLE $nameOftable;";
+
+//         //use exec() because no results are returned
+//         $conn->exec($sql);
+//         echo "Table $nameOftable deleted successfully";
+//     } catch(PDOException $e) {
+//         echo "<br>" . $e->getMessage();
+//     }
+//         $conn = null;
+// }
+
+
 ?>
