@@ -1,7 +1,4 @@
 <?php 
-include "database.php";
-$ini_data = parse_ini_file("db.ini");
-
 $result="";
 $fname = $lname = $email = $phone = $txtReasonDetail = "";
 
