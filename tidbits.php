@@ -1,3 +1,7 @@
+    <!-- tidbits containing: 
+    coding languages
+    resume -->
+    
     <section>
         <div class="col">
             <h2> Languages </h2>

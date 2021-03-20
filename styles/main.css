@@ -17,11 +17,15 @@ a {
 background-color:#e5e9d9;
 */ 
 body {
+    min-height: 100vh;
     background-image:url('img/1160.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    -o-background-size: cover;
+
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
 }
 #mainNav {
     background-color:#5c72ee;
