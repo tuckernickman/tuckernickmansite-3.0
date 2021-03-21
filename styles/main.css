@@ -2,6 +2,8 @@
 #938da5 Manatee
 #def0c9 Tea Green
 
+#e5e9d9
+
 #cfdd2f Pear
 #4b31cb Purple Heart
 
@@ -14,8 +16,8 @@
 a {
     color:#2d2f45;   
 }
-background-color:#e5e9d9;
 */ 
+
 body {
     min-height: 100vh;
     background-image:url('img/1160.jpg');
@@ -42,11 +44,12 @@ body {
 }
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header {
     color:#5c72ee;
+    text-align:center;
     font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif';
 }
 
 h2 {
-    text-align:center;
+    padding:10px;
 }
 
 a:hover {

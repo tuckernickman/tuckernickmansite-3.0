@@ -11,6 +11,8 @@
     <!--home page-->
     <?php include "section1.php"; ?>
 
+    
+
     <?php include "footer.php"; ?>
 </body>
 </html>
