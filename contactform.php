@@ -12,16 +12,17 @@
                 <div class="form-group">
                     <label for="fname">First Name</label>
                     <input id="fname" type="text" name="fname" class="form-control"
-                    placeholder="First name" aria-describedby="First name">
+                    placeholder="First name" aria-describedby="First Name">
                 </div>
                 <div class="form-group">
                     <label for="lname">Last Name</label>
                     <input id="lname" type="text" name="lname" class="form-control"
-                    placeholder="Last name" aria-describedby="Last name">
+                    placeholder="Last name" aria-describedby="Last Name">
                 </div>
                 <div class="form-group">
                     <label for="inputEmail" class="form-label">Email</label>
-                    <input id="inputEmail" type="email" name="email" class="form-control">
+                    <input id="inputEmail" type="email" name="email" class="form-control"
+                    placeholder="Your Email" aria-describedby="Your Email">
                </div>
                <div class="form-group">
                     <label for="phone">Phone Number</label>
@@ -32,7 +33,7 @@
                 <div class="form-group">
                     <label for="txtReasonDetail">Enter Your Message Here</label>
                     <textarea id="txtReasonDetail" type="text" name="txtReasonDetail" class="form-control"
-                    placeholder="Enter Your Message Here" aria-describedby="txtReasonDetail"></textarea>
+                    placeholder="Enter Your Message Here" aria-describedby="Enter Your Message Here"></textarea>
                 </div>
                <div class="col-12">
                 <button type="submit" class="btn btn-outline-dark">Submit</button>

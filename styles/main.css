@@ -3,6 +3,7 @@
 #def0c9 Tea Green
 
 #e5e9d9
+#c8ee1fe1
 
 #cfdd2f Pear
 #4b31cb Purple Heart
@@ -19,6 +20,7 @@ a {
 */ 
 
 body {
+    margin:0;
     min-height: 100vh;
     background-image:url('img/1160.jpg');
     background-attachment: fixed;
@@ -32,7 +34,9 @@ body {
     padding:5px;
 }
 .navbar {
-    background-color:#5c72ee;
+    background-image: linear-gradient(rgb(102,102,153), rgb(135,180,196), rgb(204,124,159));
+	background: -webkit-linear-gradient(rgb(102,102,153), rgb(135,180,196), rgb(204,124,159));
+    /* background-color:#5c72ee; */
 }
 #content{
     display:inline-block;
@@ -48,19 +52,28 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header {
     font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif';
 }
 
+p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header :hover {
+    color:#fff;
+    text-shadow:0px 3px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
 h2 {
     padding:10px;
 }
 
 a:hover {
-    color:#fb4b0b;
+    color:#c8ee1fe1;
+    border-color:#c8ee1fe1;
 }
 
 .font-change {
     font-family:'Nunito Sans', 'Open Sans', 'Raleway', 'Roboto Slab', 'sans-serif';
 
 }
-table {
+.table, tr, td {
     border-color:#c8ee1fe1;
 }
 
