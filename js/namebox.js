@@ -1,10 +1,10 @@
-var languages = ["HTML", "CSS", "Javascript", "PHP", "mySQL", "Python"];
+var languages = ["HTML, ", "CSS, ", "Javascript, ", "PHP, ", "mySQL, ", "Python, "];
 
 for (i = 0;  i < languages.length; i++) {
     if (i != languages.length -1){
-        document.getElementById("languages").innerText += languages[i];
+        document.getElementById("languages").innerText += languages[i]- ", ";
     } else {
-        document.getElementById("languages").innerText += languages[i] + ", ";
+        document.getElementById("languages").innerText += languages[i] ;
     }
 }
 

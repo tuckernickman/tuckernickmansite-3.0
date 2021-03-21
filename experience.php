@@ -11,14 +11,14 @@
                 function buildString($stringArray){
                     $result = "";
                     foreach($stringArray as $item){
-                        $result .= $item.", ";
+                        $result .= "<p>".$item.", "."</p>";
                     }
                     return rtrim($result, ", ");
                 }
                 function buildListString($listArray){
                     $result = "";
                     foreach($listArray as $item_key => $item_value){
-                        $result .= $item_key.": ".buildString($item_value)."<br>";
+                        $result .= "<p>".$item_key.": ".buildString($item_value)."</p>"."<br>";
                     }
                     return rtrim($result, "<br>");
                 }
@@ -26,7 +26,7 @@
                 $experience = ["Greeting Guests, Assuring Quality of Experience, Making Reservations, Cleaning, Organizing Seating Arrangements, Serving Guests"];
                 $hobbies = ["Inside" => ["Gaming", "Listening to Music", "Making Art"], "Outside" => ["Hiking", "Dancing", "Climbing"]];
             ?>
-            <h4>Skills</h4>
+            <h2>Skills</h2>
             <?php
              echo buildString($experience);
              ?>
