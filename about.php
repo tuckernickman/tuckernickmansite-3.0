@@ -9,6 +9,8 @@
     <?php
         include "menu.php"; 
 
+        include "aboutme.php"; 
+
         include "experience.php"; 
 
         include "exhibitions.php"; 

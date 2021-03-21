@@ -1,7 +1,8 @@
 <section>
-    <h2 id="content">2019</h2>
+    
     <div class="col section-content perspective">
-    <div id="content" class="col">
+        <h2 id="content">2019</h2>
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">
                         <img class="img-fluid" src="assets/img/2019/Wuste.jpg" alt="desert 1">
