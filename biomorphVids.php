@@ -1,59 +1,59 @@
 <section>
     <h2 id="content">Videos </h2>
     <div class="col section-content perspective">
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/dJf7TSWBPI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/dJf7TSWBPI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/jkGlOVjVbic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/jkGlOVjVbic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/y8iatQlDi5Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/y8iatQlDi5Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/JE-GQxtVjGs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/JE-GQxtVjGs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/CKNP2zSgQPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/CKNP2zSgQPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/7fJJdFSSGn0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/7fJJdFSSGn0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/nkZYeFkyAsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/nkZYeFkyAsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>
-            <div id="content" class="row gy-5">
+            <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
-                    <div class="col-sm videoWrapper">
-                        <iframe id="content" width="560" height="315" src="https://www.youtube.com/embed/oeO8Jwg1vGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <iframe id="content"  src="https://www.youtube.com/embed/oeO8Jwg1vGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>

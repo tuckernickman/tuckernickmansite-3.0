@@ -30,9 +30,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-.col {
+/* .col {
     padding:5px;
-}
+} */
 .navbar {
     background-image: linear-gradient(rgb(102,102,153), rgb(135,180,196), rgb(204,124,159));
 	background: -webkit-linear-gradient(rgb(102,102,153), rgb(135,180,196), rgb(204,124,159));
@@ -86,7 +86,9 @@ a:hover {
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+    width:100vw;
+    max-height:100vh;
+    text-align:center;
     }
 
 .videoWrapper iframe {

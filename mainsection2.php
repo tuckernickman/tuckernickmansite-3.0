@@ -1,5 +1,5 @@
 <section>
-    <div class="col section-content perspective">
+    <div class="col section-content perspective ">
         <h2 id="content">Videos</h2>
         <div class="row gy-5">
             <div id="content" class="col-sm">
