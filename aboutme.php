@@ -6,6 +6,6 @@
               They are currently based here and working on various ongoing projects.</p>
         </div>
         <div id="textParagraph" class="col-12">
-            <button class="btn btn-outline-dark" onclick="myFunction()" id="demo">click here</button>
+            <button class="btn" onclick="myFunction()" id="demo">click here</button>
         </div>
 </section>

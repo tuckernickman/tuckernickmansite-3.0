@@ -36,7 +36,7 @@
                     placeholder="Enter Your Message Here" aria-describedby="Enter Your Message Here"></textarea>
                 </div>
                <div class="col-12">
-                <button type="submit" class="btn btn-outline-dark">Submit</button>
+                <button type="submit" class="btn">Submit</button>
               </div>
             </form>
         </div>
