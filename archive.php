@@ -10,9 +10,11 @@
 
 
     <!--home page-->
-    <?php include "section1.php"; ?> 
+    <?php include "mainsection1.php"; ?> 
 
-    <?php include "content21.php"?>
+    <?php include "artifacts20.php"?>
+
+    <?php include "biomorphVids.php"; ?> 
 
     <?php include "footer.php"; ?>
 </body>

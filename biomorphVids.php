@@ -1,6 +1,6 @@
 <section>
-    <h2 id="content">Videos </h2>
     <div class="col section-content perspective">
+        <h2 id="content">Videos </h2>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="videoWrapper">
