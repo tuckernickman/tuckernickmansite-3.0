@@ -58,7 +58,8 @@ p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
  .navbar-brand, .nav-link, .btn{
     color:#5c72ee;
-    font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif';
+    /* font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif'; */
+    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
 }
 
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
@@ -86,7 +87,7 @@ a :hover {
     border-color:#c8ee1fe1;
 }
 
-.videoWrapper {
+.videoWrapper .html5-video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     width:100vw;
@@ -94,10 +95,13 @@ a :hover {
     text-align:center;
     }
 
-.videoWrapper iframe {
+.videoWrapper iframe .video-stream .htm5-video-player {
     position: absolute;
-    display:inline-block;
+    display:block;
     width: 100%;
     height: 100%;    
+    margin:0;
     align-content:center;
     }
+
+.
