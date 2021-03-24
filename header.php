@@ -8,3 +8,5 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <!-- alt fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Gugi&family=Modak&family=Pinyon+Script&family=Source+Sans+Pro&display=swap" rel="stylesheet">

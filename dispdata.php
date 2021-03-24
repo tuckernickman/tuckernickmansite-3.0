@@ -11,6 +11,8 @@
 
         include "database.php";
         	
+        include "datatable.php";
+
         $ini_data = parse_ini_file("db.ini");
 
         get_content($ini_data("contact_table"));
