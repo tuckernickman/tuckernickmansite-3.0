@@ -11,6 +11,6 @@
     <section>
         <div class="col-sm">
             <h2> Resume </h2>
-            <a href="assets/pdf/Resume 2020.pdf" download> To download my full resume, click here.</a>
+            <a href="assets/pdf/Resume 2021.pdf" download> To download my full resume, click here.</a>
         </div>
     </section>

@@ -15,7 +15,7 @@
 
         include "exhibitions.php"; 
 
-        include "tidbits.php";
+        // include "tidbits.php";
 
         include "contactform.php"; 
 
