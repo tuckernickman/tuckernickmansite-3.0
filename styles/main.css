@@ -60,7 +60,7 @@ p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
 }
 
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn {
+ .navbar-brand, .nav-link, .btn, small {
     color:#f4b0f7;
     text-shadow:1px 3px 30px #c8ee1fe1;
     -moz-transition: all 0.2s ease-in;
@@ -71,7 +71,7 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
 }
 
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn :hover {
+ .navbar-brand, .nav-link, .btn, small:hover {
     color:#c8ee1fe1;
     text-shadow:1px 3px 30px #5c72ee;
     -moz-transition: all 0.2s ease-in;
