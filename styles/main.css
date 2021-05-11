@@ -35,6 +35,26 @@ body {
 /* .col {
     padding:5px;
 } */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background:transparent; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f4b0f7; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c8ee1fb6; 
+}
+
 button {
     background-color:transparent;
 }
