@@ -31,16 +31,19 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    overflow:hidden;
 }
 
 /* .col {
     padding:5px;
 } */
+::-webkit-scrollbar {
+    display: none;
+}
 
 button {
     background-color:transparent;
 }
+
 .navbar, .btn button{
     background-image: linear-gradient(#5c72ee,#f4b0f7,#c8ee1fb6, #c8ee1f00);
 	background: -webkit-linear-gradient(#5c72ee, #f4b0f7,#c8ee1fb6, #c8ee1f00);
@@ -56,12 +59,16 @@ button {
 
 p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
     text-align:center;
-    padding: 10px;
+    line-height:1.5;
+    padding-bottom:10;
 }
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, li, small
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
- header .navbar-brand .nav-link .btn .donate-btn {
+label, input, textarea, header, .navbar-brand, .nav-link, .btn .donate-btn {
     color:#5c72ee;
     text-shadow:1px 3px 30px #c8ee1fe1;
     -moz-transition: all 0.2s ease-in;
@@ -71,7 +78,7 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, li, small
     font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
 }
 
-header .navbar-brand .nav-link .btn .donate-btn :hover {
+label, input, textarea, header, .navbar-brand, .nav-link, .btn .donate-btn:hover {
     color:#c8ee1fe1;
     text-shadow:1px 3px 30px #f4b0f7;
     -moz-transition: all 0.2s ease-in;
@@ -105,28 +112,20 @@ header .navbar-brand .nav-link .btn .donate-btn :hover {
     border-color:#c8ee1fe1;
 }
 
-a :hover {
-    border-color:#c8ee1fe1;
-}
-
 .videoWrapper .html5-video-container {
     position: relative;
+    display: block;
     padding-bottom: 56.25%; /* 16:9 */
     width:100vw;
     max-height:100vh;
     text-align:center;
     }
 
-.videoWrapper iframe .video-stream .htm5-video-player {
-    position: absolute;
-    display:block;
-    width: 100%;
+iframe .video-stream .htm5-video-player {
+    position: relative;
+    display: block;
+    width: 50%;
     height: 100%;    
     margin:0;
     align-content:center;
-    }
-
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
     }
