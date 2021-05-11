@@ -1,6 +1,6 @@
 <section>
     <div class="col section-content perspective">
-        <h2 id="content">Artifacts of Forceful Occurrences</h2>
+        <h2 id="content" class="txt-color">Artifacts of Forceful Occurrences</h2>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">

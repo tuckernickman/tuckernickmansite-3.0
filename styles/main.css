@@ -58,10 +58,11 @@ p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
     text-align:center;
     padding: 10px;
 }
+p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, li, small
 
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn, small {
-    color:#f4b0f7;
+
+ header .navbar-brand .nav-link .btn .donate-btn {
+    color:#5c72ee;
     text-shadow:1px 3px 30px #c8ee1fe1;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
@@ -70,10 +71,9 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
     font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
 }
 
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn, small:hover {
+header .navbar-brand .nav-link .btn .donate-btn :hover {
     color:#c8ee1fe1;
-    text-shadow:1px 3px 30px #5c72ee;
+    text-shadow:1px 3px 30px #f4b0f7;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
@@ -81,7 +81,26 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
     font-family:'Pinyon Script', 'Gugi', 'Modak', 'Source Sans Pro', 'DotGothic16';
 }
 
+.txt-color {
+    color:#5c72ee;
+    text-shadow:1px 3px 30px #c8ee1fe1;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
+}
 
+.txt-color:hover{
+    color:#c8ee1fe1;
+    text-shadow:1px 3px 30px #f4b0f7;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-family:'Pinyon Script', 'Gugi', 'Modak', 'Source Sans Pro', 'DotGothic16';
+}
+    
 .table, tr, td  {
     border-color:#c8ee1fe1;
 }

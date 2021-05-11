@@ -7,19 +7,19 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
             <ul class="navbar-nav mr-auto">
-             <li class="nav-item active">
+             <li class="nav-item active txt-color">
                     <a class="nav-link active" href="index.php">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active txt-color">
                     <a class="nav-link" href="about.php">About</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active txt-color">
                     <a class="nav-link" href="archive.php">Archive</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active txt-color">
                     <a class="nav-link" href="portfolio.php">Portfolio</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active txt-color">
                     <a class="nav-link" href="videos.php">Videos</a>
                 </li>
                 

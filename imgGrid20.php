@@ -1,7 +1,7 @@
 <section>
     
     <div class="col section-content perspective">
-        <h2 id="content" >2020</h2>
+        <h2 id="content" class="txt-color">2020</h2>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="project-img bg">

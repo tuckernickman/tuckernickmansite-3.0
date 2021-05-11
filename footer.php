@@ -1,6 +1,6 @@
 
 <div class="col">
-    <p>Copyright © TJ Nickman <?php echo date("Y"); ?></p>
+    <p class="txt-color">Copyright © TJ Nickman <?php echo date("Y"); ?></p>
 </div>
 <!-- Optional JavaScript
 <script src="js\newscript1.js"></script>

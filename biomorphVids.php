@@ -1,6 +1,6 @@
 <section>
     <div class="col section-content perspective">
-        <h2 id="content">Videos </h2>
+        <h2 id="content" class="txt-color">Videos </h2>
             <div id="content" class="col">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="videoWrapper">
@@ -54,6 +54,13 @@
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="videoWrapper">
                         <iframe id="content" class="col-sm" src="https://www.youtube.com/embed/oeO8Jwg1vGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    </div>
+                </a>
+            </div>
+            <div id="content" class="col">
+                <a href="" class="field-group-link project-link d-block p-visible">
+                    <div class="videoWrapper">
+                        <iframe id="content" class="col-sm" src="https://www.youtube.com/embed/lhbzb05wtac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
                     </div>
                 </a>
             </div>

@@ -1,12 +1,12 @@
 <section>
     <div class="col">
-        <h2>
+        <h2 class="txt-color">
             Professional Experience
         </h2>
-        <h3>
+        <h3 class="txt-color">
             Host/Busser, <a href="http://copperkitchenslc.com/home" style="padding:0;" target="_blank">Copper Kitchen,</a> Holladay 2019-2020
         </h3>
-        <p>
+        <p class="txt-color">
             <?php
                 function buildString($stringArray){
                     $result = "";
@@ -26,7 +26,7 @@
                 $experience = ["Greeting Guests, Assuring Quality of Experience, Making Reservations, Cleaning, Organizing Seating Arrangements, Serving Guests"];
                 $hobbies = ["Inside" => ["Gaming", "Listening to Music", "Making Art"], "Outside" => ["Hiking", "Dancing", "Climbing"]];
             ?>
-            <h2>Skills</h2>
+            <h2 class="txt-color">Skills</h2>
             <?php
              echo buildString($experience);
              ?>

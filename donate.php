@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-	<h3>Donate</h3>
+	<h3 class="txt-color">Donate</h3>
 	<span id="donate-bitcoin" class="donate-btn"></span>
     <span id="donate-ether" class="donate-btn"></span>
 	<span id="donate-cardano" class="donate-btn"></span>
