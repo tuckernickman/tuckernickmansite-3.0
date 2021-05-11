@@ -31,29 +31,12 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    overflow:hidden;
 }
+
 /* .col {
     padding:5px;
 } */
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-/* Track */
-::-webkit-scrollbar-track {
-    background: #5c72ee; 
-}
-   
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #f4b0f7; 
-    border-radius: 10px;
-}
-  
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #c8ee1fb6; 
-}
 
 button {
     background-color:transparent;
@@ -63,40 +46,41 @@ button {
 	background: -webkit-linear-gradient(#5c72ee, #f4b0f7,#c8ee1fb6, #c8ee1f00);
     /* background-color:#5c72ee; */
 }
+
 #content{
     display:inline-block;
     align-content: center;
     text-align:center;
-    padding:5, 10;
+    padding: 5, 10;
 }
 
 p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
     text-align:center;
-    padding:10px;
+    padding: 10px;
 }
 
 p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn{
-    color:#5c72ee;
-    /* font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif'; */
-    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
-}
-
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn :hover {
+ .navbar-brand, .nav-link, .btn {
+    color:#f4b0f7;
     text-shadow:1px 3px 30px #c8ee1fe1;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
 }
 
-.font1{
-    font-family:'Nunito Sans', 'Open Sans', 'Raleway', 'Roboto Slab', 'sans-serif';
+p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
+ .navbar-brand, .nav-link, .btn :hover {
+    color:#c8ee1fe1;
+    text-shadow:1px 3px 30px #5c72ee;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-family:'Pinyon Script', 'Modak', 'Gugi',  'Source Sans Pro', 'DotGothic16';
 }
-.font-change:hover {
-    font-family:'Raleway', 'Roboto Slab', 'Nunito Sans', 'Open Sans', 'sans-serif';
-}
+
 
 .table, tr, td  {
     border-color:#c8ee1fe1;
