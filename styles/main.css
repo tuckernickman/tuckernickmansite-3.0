@@ -41,7 +41,7 @@ body {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    background:transparent; 
+    background: #5c72ee; 
 }
    
 /* Handle */
@@ -121,4 +121,9 @@ a :hover {
     height: 100%;    
     margin:0;
     align-content:center;
+    }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
     }

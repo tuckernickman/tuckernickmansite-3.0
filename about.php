@@ -13,7 +13,7 @@
 
         include "experience.php"; 
 
-        include "exhibitions.php"; 
+        // include "exhibitions.php"; 
 
         // include "tidbits.php";
 
