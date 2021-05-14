@@ -22,8 +22,8 @@ a {
 */ 
 
 body {
-    width:100vw;
-    height:100vh;
+    width:100%;
+    height:100%;
     margin:0;
     min-height: 100vh;
     background-image:url('img/1160.jpg');
@@ -33,7 +33,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    overflow: scroll;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -46,13 +46,35 @@ button {
     background-color:transparent;
 }
 
-.navbar, .btn button{
+.navbar, .btn button {
     background-image: linear-gradient(#5c72ee,#f4b0f7,#c8ee1fb6, #c8ee1f00);
 	background: -webkit-linear-gradient(#5c72ee, #f4b0f7,#c8ee1fb6, #c8ee1f00);
     /* background-color:#5c72ee; */
 }
 
-#content{
+.navbar-light .navbar-nav .active >.nav-link , .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color:inherit;
+}
+
+/* .navbar-light .navbar-brand, .nav-link {
+    color:#5c72ee;
+    text-shadow:1px 3px 30px #c8ee1fe1;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+} */
+
+/* .navbar-light .navbar-brand, .nav-link:hover {
+    color:#c8ee1fe1;
+    text-shadow:1px 3px 30px #5c72ee;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+} */
+
+#content {
     display:inline-block;
     align-content: center;
     text-align:center;
@@ -70,7 +92,7 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
-label, input, textarea, header, .navbar-brand, .nav-link, .btn .donate-btn {
+label, input, textarea, header, .navbar-brand, .btn .donate-btn {
     color:#5c72ee;
     text-shadow:1px 3px 30px #c8ee1fe1;
     -moz-transition: all 0.2s ease-in;
@@ -80,7 +102,7 @@ label, input, textarea, header, .navbar-brand, .nav-link, .btn .donate-btn {
     font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
 }
 
-label, input, textarea, header, .navbar-brand, .nav-link, .btn .donate-btn:hover {
+label, input, textarea, header, .btn .donate-btn:hover {
     color:#c8ee1fe1;
     text-shadow:1px 3px 30px #f4b0f7;
     -moz-transition: all 0.2s ease-in;
@@ -107,9 +129,13 @@ label, input, textarea, header, .navbar-brand, .nav-link, .btn .donate-btn:hover
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    
+}
+
+.font-change:hover {
     font-family:'Pinyon Script', 'Gugi', 'Modak', 'Source Sans Pro', 'DotGothic16';
 }
-    
+
 .table, tr, td  {
     border-color:#c8ee1fe1;
 }

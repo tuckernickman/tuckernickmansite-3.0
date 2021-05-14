@@ -11,9 +11,9 @@
 
         include "aboutme.php"; 
 
-        include "experience.php"; 
+        // include "experience.php"; 
 
-        // include "exhibitions.php"; 
+        include "exhibitions.php"; 
 
         // include "tidbits.php";
 
