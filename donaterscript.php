@@ -71,19 +71,11 @@
 				label: 'CoinTipper Tip Jar'
 			});
 
-			$('#donate-dogecoin').coinTipper({
+			$('#donate-tron').coinTipper({
 				type: 'donate',
 				currency: 'tron',
 				iso: 'TRX',
 				address: 'TUCnkcRjVahaaE4Jo9axf7R2ijfsvYgm4H',
-				label: 'CoinTipper Tip Jar'
-			});
-
-			$('#donate-polkadot').coinTipper({
-				type: 'donate',
-				currency: 'tezos',
-				iso: 'XTZ',
-				address: 'tz1goWz44hgWY1yt7isP1VYhqVkbkD4mof36',
 				label: 'CoinTipper Tip Jar'
 			});
 		});

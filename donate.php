@@ -7,5 +7,4 @@
     <span id="donate-dogecoin" class="donate-btn"></span>
     <span id="donate-polkadot" class="donate-btn"></span>
     <span id="donate-tron" class="donate-btn"></span>
-    <span id="donate-tezos" class="donate-btn"></span>
 </div>
