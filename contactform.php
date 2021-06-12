@@ -4,7 +4,7 @@
                 <strong>Stop!</strong> Please fill out all of the fields correctly.
             </div>
             <div>
-                <h2> Contact </h2>
+                <h2> Contact Brianna</h2>
             </div>
 
             <form name="contactForm" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" onsubmit="event.preventDefault(); validateForm();">
