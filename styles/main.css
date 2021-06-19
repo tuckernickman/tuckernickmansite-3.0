@@ -21,8 +21,22 @@ a {
 }
 */ 
 
+a {
+    list-style-type: none !important;
+    text-decoration: none !important;
+    color:inherit !important;
+}
+
+a:hover {
+    list-style-type:none !important;
+    text-decoration: none !important;
+    color:inherit !important;
+}
+
 body {
     margin:0;
+    padding:0;
+    box-sizing: border-box;
     min-height: 100vh;
     background-image:url('img/1160.jpg');
     background-attachment: fixed;
@@ -31,10 +45,13 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    color:inherit;
 }
+
 /* .col {
     padding:5px;
 } */
+
 button {
     background-color:transparent;
 }
@@ -72,16 +89,20 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
 }
 
 .font1{
-    font-family:'Nunito Sans', 'Open Sans', 'Raleway', 'Roboto Slab', 'sans-serif';
+    color:#5c72ee;
+    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16'!important;
+    transition: font-family .3141s ease;
 }
+
 .font-change:hover {
-    font-family:'Raleway', 'Roboto Slab', 'Nunito Sans', 'Open Sans', 'sans-serif';
+    font-family:'Pinyon Script', 'Modak', 'Gugi', 'Source Sans Pro', 'DotGothic16'!important;
+    color:#c8ee1fe1;
+    -moz-transition: all 0.3141s ease-in-out;
+    -o-transition: all 0.3141s ease-in-out;
+    -webkit-transition: all 0.3141s ease-in-out;
+    transition: all 0.3141s ease-in-out;
+    transition: font-family .3141s ease;
 }
-
-.table, tr, td  {
-    border-color:#c8ee1fe1;
-}
-
 
 a :hover {
     border-color:#c8ee1fe1;
@@ -93,7 +114,7 @@ a :hover {
     width:100vw;
     max-height:100vh;
     text-align:center;
-    }
+}
 
 .videoWrapper iframe .video-stream .htm5-video-player {
     position: absolute;
@@ -102,4 +123,8 @@ a :hover {
     height: 100%;    
     margin:0;
     align-content:center;
-    }
+}
+
+table, th, td {
+    border: none;
+  }
