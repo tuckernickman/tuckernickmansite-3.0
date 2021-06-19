@@ -47,22 +47,13 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-<<<<<<< HEAD
     color:inherit;
-=======
-    overflow-y: scroll;
-    overflow-x: hidden;
->>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 }
 
 /* .col {
     padding:5px;
 } */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 button {
     background-color:transparent;
 }
@@ -143,25 +134,10 @@ label, input, textarea, header, .btn .donate-btn:hover {
     font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
 }
 
-<<<<<<< HEAD
 .font1{
     color:#5c72ee;
     font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16'!important;
     transition: font-family .3141s ease;
-=======
-.txt-color:hover{
-    color:#c8ee1fe1;
-    text-shadow:1px 3px 30px #f4b0f7;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    
-}
-
-.font-change:hover {
-    font-family:'Pinyon Script', 'Gugi', 'Modak', 'Source Sans Pro', 'DotGothic16';
->>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 }
 
 .font-change:hover {
@@ -174,13 +150,10 @@ label, input, textarea, header, .btn .donate-btn:hover {
     transition: font-family .3141s ease;
 }
 
-<<<<<<< HEAD
 a :hover {
     border-color:#c8ee1fe1;
 }
 
-=======
->>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 .videoWrapper .html5-video-container {
     position: relative;
     display: block;
