@@ -1,6 +1,6 @@
 <section>
     <div class="col section-content perspective ">
-        <h2 id="content">Videos</h2>
+        <h2 id="content" class="txt-color">Videos</h2>
         <div class="row gy-5">
             <div id="content" class="col-sm">
                 <a href="/videos.php" class="field-group-link project-link d-block p-visible font1 font-change">
@@ -12,7 +12,7 @@
                                 Biomorph Still, 2021
                         </small>
                     </div>
-                        <h3 class="font1 font-change">Videos</h3>
+                        <h3 class="font1 font-change txt-color">Videos</h3>
                 </a>
             </div>
         </div>
@@ -20,7 +20,7 @@
 </section>
 <section>
     <div class="col section-content perspective">
-        <h2 id="content">Archive</h2>
+        <h2 id="content" class="txt-color">Archive</h2>
         <div class="row gy-5">
             <div id="content" class="col-sm">
                 <a href="/artifacts.php" class="field-group-link project-link d-block p-visible font1 font-change">
@@ -32,7 +32,7 @@
                                 Artifact, 2020
                         </small>
                     </div>
-                        <h3 class="font1 font-change">Artifacts of Forceful Occurrences</h3>
+                        <h3 class="font1 font-change txt-color">Artifacts of Forceful Occurrences</h3>
                 </a>
             </div>
         </div>

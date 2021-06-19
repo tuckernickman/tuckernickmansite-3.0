@@ -4,13 +4,13 @@
 
     <section>
         <div class="col-sm">
-            <h2> Languages </h2>
-            <p id="languages"></p>
+            <h2 class="txt-color"> Languages </h2>
+            <p id="languages" class="txt-color"></p>
         </div>
     </section>
     <section>
         <div class="col-sm">
-            <h2> Resume </h2>
-            <a href="assets/pdf/Resume 2020.pdf" download> To download my full resume, click here.</a>
+            <h2 class="txt-color"> Resume </h2>
+            <a href="assets/pdf/Resume 2021.pdf" download class="txt-color"> To download my full resume, click here.</a>
         </div>
     </section>

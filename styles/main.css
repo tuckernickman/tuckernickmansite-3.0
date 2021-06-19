@@ -34,6 +34,8 @@ a:hover {
 }
 
 body {
+    width:100%;
+    height:100%;
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -45,53 +47,121 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+<<<<<<< HEAD
     color:inherit;
+=======
+    overflow-y: scroll;
+    overflow-x: hidden;
+>>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 }
 
 /* .col {
     padding:5px;
 } */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 button {
     background-color:transparent;
 }
-.navbar, .btn button{
+
+.navbar, .btn button {
     background-image: linear-gradient(#5c72ee,#f4b0f7,#c8ee1fb6, #c8ee1f00);
 	background: -webkit-linear-gradient(#5c72ee, #f4b0f7,#c8ee1fb6, #c8ee1f00);
     /* background-color:#5c72ee; */
 }
-#content{
-    display:inline-block;
-    align-content: center;
-    text-align:center;
-    padding:5, 10;
+
+.navbar-light .navbar-nav .active >.nav-link , .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color:inherit;
 }
 
-p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
-    text-align:center;
-    padding:10px;
-}
-
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn{
+/* .navbar-light .navbar-brand, .nav-link {
     color:#5c72ee;
-    /* font-family:'Roboto Slab', 'Nunito Sans', 'Open Sans', 'Raleway', 'sans-serif'; */
-    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
-}
-
-p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
- .navbar-brand, .nav-link, .btn :hover {
     text-shadow:1px 3px 30px #c8ee1fe1;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+} */
+
+/* .navbar-light .navbar-brand, .nav-link:hover {
+    color:#c8ee1fe1;
+    text-shadow:1px 3px 30px #5c72ee;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+} */
+
+#content {
+    display:inline-block;
+    align-content: center;
+    text-align:center;
+    padding: 5, 10;
 }
 
+p, a, label, input, textarea, td, th, h4, h2, h1, h3, h5, h6, header, div {
+    text-align:center;
+    line-height:1.5;
+    padding-bottom:10;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+label, input, textarea, header, .navbar-brand, .btn .donate-btn {
+    color:#5c72ee;
+    text-shadow:1px 3px 30px #c8ee1fe1;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
+}
+
+label, input, textarea, header, .btn .donate-btn:hover {
+    color:#c8ee1fe1;
+    text-shadow:1px 3px 30px #f4b0f7;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-family:'Pinyon Script', 'Gugi', 'Modak', 'Source Sans Pro', 'DotGothic16';
+}
+
+.txt-color {
+    color:#5c72ee;
+    text-shadow:1px 3px 30px #c8ee1fe1;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16';
+}
+
+<<<<<<< HEAD
 .font1{
     color:#5c72ee;
     font-family:'Gugi', 'Modak', 'Pinyon Script', 'Source Sans Pro', 'DotGothic16'!important;
     transition: font-family .3141s ease;
+=======
+.txt-color:hover{
+    color:#c8ee1fe1;
+    text-shadow:1px 3px 30px #f4b0f7;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+}
+
+.font-change:hover {
+    font-family:'Pinyon Script', 'Gugi', 'Modak', 'Source Sans Pro', 'DotGothic16';
+>>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 }
 
 .font-change:hover {
@@ -104,22 +174,26 @@ p, a, label, input, textarea, td, th, nav, h4, h2, h1, h3, h5, h6, header, li,
     transition: font-family .3141s ease;
 }
 
+<<<<<<< HEAD
 a :hover {
     border-color:#c8ee1fe1;
 }
 
+=======
+>>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
 .videoWrapper .html5-video-container {
     position: relative;
+    display: block;
     padding-bottom: 56.25%; /* 16:9 */
     width:100vw;
     max-height:100vh;
     text-align:center;
 }
 
-.videoWrapper iframe .video-stream .htm5-video-player {
-    position: absolute;
-    display:block;
-    width: 100%;
+iframe .video-stream .htm5-video-player {
+    position: relative;
+    display: block;
+    width: 50%;
     height: 100%;    
     margin:0;
     align-content:center;

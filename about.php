@@ -11,11 +11,11 @@
 
         include "aboutme.php"; 
 
-        include "experience.php"; 
+        // include "experience.php"; 
 
         include "exhibitions.php"; 
 
-        include "tidbits.php";
+        // include "tidbits.php";
 
         include "contactform.php"; 
 
