@@ -8,19 +8,19 @@
             <div class="navbar-nav">
             <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-                    <a class="nav-link active" href="index.php">Home</a>
+                    <a class="nav-link active font1 font-change" href="index.php">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="about.php">About</a>
+                    <a class="nav-link font1 font-change" href="about.php">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="archive.php">Archive</a>
+                    <a class="nav-link font1 font-change" href="archive.php">Archive</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.php">Portfolio</a>
+                    <a class="nav-link font1 font-change" href="portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="videos.php">Videos</a>
+                    <a class="nav-link font1 font-change" href="videos.php">Videos</a>
                 </li>
                 
             </ul>
