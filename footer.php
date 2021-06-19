@@ -1,4 +1,3 @@
-
 <div class="col">
     <p class="txt-color">Copyright © TJ Nickman <?php echo date("Y"); ?></p>
 </div>
@@ -16,3 +15,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
 <script src="js/alert1.js" ></script>
 <script src="js/namebox.js"></script>
+
+<!--button overlay script-->
+<script src="buttonoverlay.js"></script>

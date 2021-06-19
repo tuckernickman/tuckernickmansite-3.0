@@ -22,7 +22,6 @@
                 <li class="nav-item active">
                     <a class="nav-link font1 font-change" href="videos.php">Videos</a>
                 </li>
-                
             </ul>
             </div>
           </div>

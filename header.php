@@ -15,3 +15,7 @@
     <!-- mycss -->
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <link rel="stylesheet" type="text/css" href="/styles/portfolio.css">
+
+    <link rel="stylesheet" type="text/css" href="/styles/biomorphoverlay.css">
+    <link rel="stylesheet" type="text/css" href="/styles/animation.css">
+    
