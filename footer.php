@@ -3,24 +3,24 @@
     <div class="row light justify-content-center">
       <div class="col-md-9 col-sm-12 d-flex justify-content-center">
         <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-2 justify-content-center">
-          <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change">Quick Links</h5>
+          <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change text-color">Quick Links</h5>
           <ul class="list-group">
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change"><a href="Index.php">Home</a></li>
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change"><a href="about.php">About</a></li>
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change"><a href="newbiomorph.php">Biomorph</a></li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color"><a href="Index.php">Home</a></li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color"><a href="about.php">About</a></li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color"><a href="archive.php">Archive</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-right">
-          <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change justify-content-center">Social</h5>
+          <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change text-color justify-content-center">Social</h5>
           <ul class="list-group">
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
               <a class="font1 font-change" href="https://www.instagram.com/nektar.c.k/" target="_blank"><i class="fab fa-instagram mr-1"></i> Instagram</a>  
             </li>
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
               <a class="font1 font-change" href="https://github.com/tuckernickman" target="_blank"><i class="fab fa-github mr-1"></i> Github</a>  
             </li>
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
               <a class="font1 font-change" href="https://support.discord.com/hc/en-us/profiles/1511603274242" target="_blank"><i class="fab fa-discord mr-1"></i> Discord</a>  
             </li>
           </ul>
@@ -37,10 +37,10 @@
 
         <div class="col-md-12">
           <div class="py-1 justify-content-center align-items-center">
-                <h5 class="mb-1 font-weight-bold text-uppercase font1 font-change"> 
-                  <span class="font1 font-change">&copy;
+                <h5 class="mb-1 font-weight-bold text-uppercase font1 font-change text-color"> 
+                  <span class="font1 font-change text-color">&copy;
                   <?php echo date("Y"); ?></span>
-                  <span class="font1 font-change"><a class="font1 font-change" href="#">Tucker Nickman</a>
+                  <span class="font1 font-change"><a class="font1 font-change text-color" href="#">Tucker Nickman</a>
                   </span>    
     	        </h5>
           </div>
