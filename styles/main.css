@@ -175,3 +175,9 @@ iframe .video-stream .htm5-video-player {
 table, th, td {
     border: none;
   }
+
+ul, li {
+   list-style-type: none; 
+   text-decoration: none;
+   color: inherit;
+}
