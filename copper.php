@@ -3,6 +3,8 @@
 <head>
     <title>Biomorph</title>
     <?php include "header.php"; ?>
+
+    <meta name="description" content="copper morph">
 </head>
 
 <body>
@@ -57,8 +59,14 @@
 
         <div class="col-lg col-md-8 col-sm-12">
   	        <ul>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+                    <a class="font1 font-change" href="/beginning.php"><i class="fas fa-angle-left mr-1"></i></a>  
+                </li>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+                    <a class="font1 font-change" href="/hyperobjects.php"><i class="fas fa-angle-right mr-1"></i></a>  
+                </li>
                 <li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/beginning.php">Last</a></li>
-  		    	<li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/deeptime.php">Next</a></li>
+  		    	<li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/hyperobjects.php">Next</a></li>
   		    	<li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/Index.php">Home</a></li>
   		    </ul>
         </div>

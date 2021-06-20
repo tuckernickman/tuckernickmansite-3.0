@@ -1,13 +1,64 @@
-<div class="col">
-    <p class="txt-color">Copyright © TJ Nickman <?php echo date("Y"); ?></p>
-</div>
+<footer id="footer" class="colored-accent-bkg">
+  <div class="container pt-3 border-bottom">
+    <div class="row light justify-content-center">
+      <div class="col-md-9 col-sm-12 d-flex justify-content-center">
+        <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-2 justify-content-center">
+          <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change">Quick Links</h5>
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change"><a href="Index.php">Home</a></li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change"><a href="about.php">About</a></li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change"><a href="newbiomorph.php">Biomorph</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-right">
+          <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change justify-content-center">Social</h5>
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+              <a class="font1 font-change" href="https://www.instagram.com/nektar.c.k/" target="_blank"><i class="fab fa-instagram mr-1"></i> Instagram</a>  
+            </li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+              <a class="font1 font-change" href="https://github.com/tuckernickman" target="_blank"><i class="fab fa-github mr-1"></i> Github</a>  
+            </li>
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+              <a class="font1 font-change" href="https://support.discord.com/hc/en-us/profiles/1511603274242" target="_blank"><i class="fab fa-discord mr-1"></i> Discord</a>  
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+        <!-- 
+        <div class="col-md-12 justify-content-center">
+          <h5 class="mb-2 font-weight-bold text-uppercase light-text">Our Mission</h5>
+          <h6 class="mb-2 font-weight-bold text-uppercase light-text">
+            to push the world's expectations of us as folx! 
+          </h6>
+        </div> -->
+
+        <div class="col-md-12">
+          <div class="py-1 justify-content-center align-items-center">
+                <h5 class="mb-1 font-weight-bold text-uppercase font1 font-change"> 
+                  <span class="font1 font-change">&copy;
+                  <?php echo date("Y"); ?></span>
+                  <span class="font1 font-change"><a class="font1 font-change" href="#">Tucker Nickman</a>
+                  </span>    
+    	        </h5>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</footer>
+
 <!-- Optional JavaScript
 <script src="js\newscript1.js"></script>
 -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <!-- P5.js script-->
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>

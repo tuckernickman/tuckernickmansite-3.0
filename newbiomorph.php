@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Videos</title>
+    <title>Biomorph</title>
     <?php include "header.php"; ?>
 </head>
-
 <body>
-    <?php include "menu.php"; ?>
 
-    <!--home page-->
-    <?php include "biomorphVids.php"; ?> 
-    
     <?php include "biomorphportal.php"; ?>
 
     <?php include "footer.php"; ?>

@@ -3,6 +3,8 @@
 <head>
     <title>Biomorph</title>
     <?php include "header.php"; ?>
+    
+    <meta name="description" content="We await a new beginning. Cells divide and multiply creating complex figures, adapting to anthropogenic contamination, their forms fluidly morph, sometimes creating new limbs unknown to us, perhaps only to feel, become with one another, and caress the earth. This is a portal to futurity, what exists beyond human time. ">
 </head>
 
 <body>
@@ -61,6 +63,12 @@
         
         <div class="col-lg col-md-8 col-sm-12">
   	        <ul>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+                    <a class="font1 font-change" href="/contamination.php"><i class="fas fa-angle-left mr-1"></i></a>  
+                </li>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
+                    <a class="font1 font-change" href="/copper.php"><i class="fas fa-angle-right mr-1"></i></a>  
+                </li>
                 <li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/contamination.php">Last</a></li>
   		    	<li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/copper.php">Next</a></li>
   		    	<li class="nav-item font1 font-change"><a class="col-lg col-md-8 col-sm-12 font1 font-change" href="/Index.php">Home</a></li>

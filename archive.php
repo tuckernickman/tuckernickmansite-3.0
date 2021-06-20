@@ -16,6 +16,8 @@
 
     <?php include "biomorphVids.php"; ?> 
 
+    <?php include "biomorph.php";?>
+
     <?php include "footer.php"; ?>
 </body>
 </html>
