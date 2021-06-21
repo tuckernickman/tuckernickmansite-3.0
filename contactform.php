@@ -4,11 +4,7 @@
                 <p class="txt-color"><strong>Stop!</strong> Please fill out all of the fields correctly.</p>
             </div>
             <div>
-<<<<<<< HEAD
-                <h2> Contact Tucker </h2>
-=======
                 <h2 class="txt-color"> Contact Tucker</h2>
->>>>>>> b649c4b90a8f78c0d902bf2970be654d2b40bd0c
             </div>
 
             <form name="contactForm" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" onsubmit="event.preventDefault(); validateForm();">

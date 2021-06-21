@@ -1,4 +1,4 @@
-<section class="mb-3">
+<section class="mb-5">
     <div class="col section-content perspective ">
         <h2 id="content" class="txt-color">Videos</h2>
         <div class="row gy-5">
@@ -18,7 +18,7 @@
         </div>
     </div>
 </section>
-<section class="mb-3">
+<section class="mb-5">
     <div class="col section-content perspective">
         <h2 id="content" class="txt-color">Archive</h2>
         <div class="row gy-5">
@@ -38,7 +38,7 @@
         </div>
     </div>
 </section>
-<section class="mb-3">   
+<section class="mb-5">   
     <div class="col section-content perspective">
         <h2 id="content" class="txt-color">Biomorph Portal</h2>
         <div class="row gy-5">

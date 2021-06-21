@@ -12,11 +12,9 @@
     <!--home page-->
     <?php include "mainsection1.php"; ?> 
 
-    <?php include "artifacts20.php"?>
+    <?php include "mainsection2.php"?>
 
     <?php include "biomorphVids.php"; ?> 
-
-    <?php include "biomorph.php";?>
 
     <?php include "footer.php"; ?>
 </body>

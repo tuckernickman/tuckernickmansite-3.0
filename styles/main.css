@@ -181,3 +181,18 @@ ul, li {
    text-decoration: none;
    color: inherit;
 }
+
+ul {
+    display: inline;
+    margin:0;
+    padding:0;
+}
+
+li {
+    display:block;
+    text-align:center;
+}
+
+#listarrows {
+    display:inline;
+}

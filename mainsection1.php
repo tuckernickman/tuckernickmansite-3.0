@@ -1,4 +1,4 @@
-<section class="mb-3">
+<section class="mb-5">
     <div class="col section-content perspective">
         <h2 id="content" class="txt-color">Portfolio</h2>
         <div class="row gy-5">
