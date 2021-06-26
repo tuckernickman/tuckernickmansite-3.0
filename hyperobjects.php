@@ -39,7 +39,7 @@
 		                    <br> <span style="display:inline-block;">CHURNING UP WAVES</span>
 		                    <br> <span style="display:inline-block;">LIKE TSUNAMIS,</span>
 		                    <br> <span style="display:inline-block;">RISING WATERS,</span>
-		                    <br> <span style="display:inline-block;">OR PRECIPITATING LAKES</span>
+		                    <br> <span style="display:inline-block;">OR PRECIPITATING LAKES,</span>
 		                    <br> <span style="display:inline-block;">AND STREAMBEDS.</span>
 		                    <br> <span style="display:inline-block;">FLOWING THROUGH TRANSNATIONAL PIPELINES.</span>
 		                    <br> <span style="display:inline-block;">RADIATING FROM THE SUN.</span>
