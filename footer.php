@@ -64,8 +64,10 @@
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+
+<!-- namebox and alert for aboutme.php -->
 <script src="js/alert1.js" ></script>
 <script src="js/namebox.js"></script>
 
 <!--button overlay script-->
-<script src="buttonoverlay.js"></script>
+<!-- <script src="js/buttonoverlay.js"></script> -->
