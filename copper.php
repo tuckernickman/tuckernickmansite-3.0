@@ -15,24 +15,16 @@
 
     <div class="col section-content perspective">
 
-        <div class="col-lg col-md-8 col-sm-12">
-            <h2 id="content" class="col-lg col-md-8 col-sm-12 txt-color">Copper</h2>
-                <div id="content" class="col-lg col-md-8 col-sm-12">
-                    <a href="" class="field-group-link project-link d-block p-visible">
-                        <div class="videoWrapper">
-                            <iframe id="content" class="col-sm html5-video-player" src="https://www.youtube.com/embed/CKNP2zSgQPo"w frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
-                        </div>
-                    </a>
-                </div>
-        </div>
-     
-        <!-- Overlay -->
-
-        <div class="col-lg col-md-8 col-sm-12">
-	        <div>
-                <div class="col-lg col-md-8 col-sm-12">
-                    <div class="blur" >
-		                <h4 class="font1 font-change">
+        <div class="col section-content perspective">
+        <h2 id="content" class="txt-color">Copper</h2>
+            <div class="row gy-5">
+                <div id="content" class="col-sm">
+                    <div class="videoWrapper">
+                    <iframe id="content" class="col-sm html5-video-player" src="https://www.youtube.com/embed/CKNP2zSgQPo"w frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-year">
+                        <div class="blur" >
+		                    <h4 class="font1 font-change">
                             <br><span>CONDUCTIVITY, SENDING PULSATING RIPPLES OF LIGHT THROUGH THE SCREEN.</span>
                             <br><span>THE LANDSCAPE IN THE WAKE OF COLONIALISM.</span>
                             <br><span>ITS BODY BEING PUSHED FURTHER INTO DEMOLITION.</span>
@@ -40,13 +32,14 @@
                             <br><span>HEAVY METALS TUCKED AWAY DEEP IN THE EARTH, RESURFACED.</span>
                             <br><span>CHURNED, MOLTEN LIQUID BECOMES EITHER COPPER OR THE TOXIC SLUDGE.</span>
                             <br><span>RIBBONS OF ITS THREADS TANGLED IN E-WASTE,</span>
-                            <br><span>MERGING WITH THE AFTERMATH OF EXTRACTIVISM.</span>                
-                        </h4>
-                    </div>
+                            <br><span>MERGING WITH THE AFTERMATH OF EXTRACTIVISM.</span>                      
+                            </h4>
+                        </div>
+                    </div> 
                 </div>
-	        </div>
+            </div>
         </div>
-        
+    
         <div class="col-lg col-md-8 col-sm-12">
             <div id="content" class="col-lg col-md-8 col-sm-12">
                 <a href="" class="field-group-link project-link d-block p-visible">

@@ -15,24 +15,16 @@
 
     <div class="col section-content perspective">
 
-        <div class="col-lg col-md-8 col-sm-12">
-            <h2 id="content" class="col-lg col-md-8 col-sm-12 txt-color">Hyperobjects</h2>
-                <div id="content" class="col-lg col-md-8 col-sm-12">
-                    <a href="" class="field-group-link project-link d-block p-visible">
-                        <div class="videoWrapper">
-                            <iframe id="content" class="col-sm html5-video-player" src="https://www.youtube.com/embed/nkZYeFkyAsw"w frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
-                        </div>
-                    </a>
-                </div>
-        </div>
-        
-        <!-- Overlay -->
-
-        <div class="col-lg col-md-8 col-sm-12">
-	        <div>
-                <div class="col-lg col-md-8 col-sm-12">
-                    <div class="blur" >
-		                <h4 class="font1 font-change">
+        <div class="col section-content perspective">
+        <h2 id="content" class="txt-color">Hyperobjects</h2>
+            <div class="row gy-5">
+                <div id="content" class="col-sm">
+                    <div class="videoWrapper">
+                    <iframe id="content" class="col-sm html5-video-player" src="https://www.youtube.com/embed/nkZYeFkyAsw"w frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-year">
+                        <div class="blur" >
+		                    <h4 class="font1 font-change">
                             <br> <span style="display:inline-block;">HIGHER DIMENSIONS OF STRUCTURE</span>
 		                    <br> <span style="display:inline-block;">RAINING DOWN IN PIECES:</span>
 		                    <br> <span style="display:inline-block;">NONLOCALLY TRANSFORMING,</span>
@@ -47,11 +39,12 @@
 		                    <br> <span style="display:inline-block;">INTERCONNECTED.</span>
 		                    <br> <span style="display:inline-block;">WEAVING DROUGHT AND FLOOD,</span>
 		                    <br> <span style="display:inline-block;">WITH EMISSIONS</span>
-		                    <br> <span style="display:inline-block;">AND CLIMATE DENIAL.</span>    
-                        </h4>
-                    </div>
+		                    <br> <span style="display:inline-block;">AND CLIMATE DENIAL.</span>                    
+                            </h4>
+                        </div>
+                    </div> 
                 </div>
-	        </div>
+            </div>
         </div>
         
         <div class="col-lg col-md-8 col-sm-12">

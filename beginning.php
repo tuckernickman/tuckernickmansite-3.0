@@ -14,24 +14,16 @@
 
     <div class="col section-content perspective">
 
-        <div class="col-lg col-md-8 col-sm-12">
-            <h2 id="content" class="col-lg col-md-8 col-sm-12 txt-color">Beginning</h2>
-                <div id="content" class="col-lg col-md-8 col-sm-12">
-                    <a href="" class="field-group-link project-link d-block p-visible">
-                        <div class="videoWrapper">
-                            <iframe id="content" class="col-sm html5-video-player" src="https://www.youtube.com/embed/JE-GQxtVjGs"w frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
-                        </div>
-                    </a>
-                </div>
-        </div>
-        
-        <!-- Overlay -->
-
-        <div class="col-lg col-md-8 col-sm-12">
-	        <div>
-                <div class="col-lg col-md-8 col-sm-12">
-                    <div class="blur" >
-		                <h4 class="font1 font-change">
+        <div class="col section-content perspective">
+        <h2 id="content" class="txt-color">Beginning</h2>
+            <div class="row gy-5">
+                <div id="content" class="col-sm">
+                    <div class="videoWrapper">
+                    <iframe id="content" class="col-sm html5-video-player" src="https://www.youtube.com/embed/JE-GQxtVjGs"w frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" preload="metadata" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-year">
+                        <div class="blur" >
+		                    <h4 class="font1 font-change">
                             <br><span>IN TIME ALL THINGS WILL COME TO AN END, BUT TO WHOSE END?</span>
 			                <br><span>CYCLICALLY ENDS THE START THAT BEGINS</span>
 			                <br><span>WHEN WE END, WHAT WILL COME?
@@ -44,11 +36,12 @@
 			                <br><span>AN IMBALANCE.</span>
 			                <br><span>HOWEVER, LIFE FINDS A WAY.</span>
 			                <br><span>COULD PERHAPS ENDINGS ON THIS NOW CONTAMINATED LAND FORM NEW BEGINNINGS?</span>
-			                <br><span>EVOLVING LIFE SHIFTING, MORPHING IN THE PCBS AND CHLORINE GAS.</span></p>
-                        </h4>
-                    </div>
+			                <br><span>EVOLVING LIFE SHIFTING, MORPHING IN THE PCBS AND CHLORINE GAS.</span></p>                     
+                            </h4>
+                        </div>
+                    </div> 
                 </div>
-	        </div>
+            </div>
         </div>
 
         <div class="col-lg col-md-8 col-sm-12">
