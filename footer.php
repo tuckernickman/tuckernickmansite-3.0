@@ -20,9 +20,9 @@
             <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
               <a class="font1 font-change" href="https://github.com/tuckernickman" target="_blank"><i class="fab fa-github mr-1"></i> Github</a>
             </li>
-            <!-- <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
-              <a class="font1 font-change" href="https://support.discord.com/hc/en-us/profiles/1511603274242" target="_blank"><i class="fab fa-discord mr-1"></i> Discord</a>
-            </li> -->
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
+              <a class="font1 font-change" href="https://soundcloud.com/nektarck" target="_blank"><i class="fab fa-soundcloud mr-1"></i> Soundcloud</a>
+            </li>
           </ul>
         </div>
       </div>
