@@ -15,33 +15,33 @@
           <h5 class="mb-2 font-weight-bold text-uppercase font1 font-change text-color justify-content-center">Social</h5>
           <ul class="list-group">
             <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
-              <a class="font1 font-change" href="https://www.instagram.com/nektar.c.k/" target="_blank"><i class="fab fa-instagram mr-1"></i> Instagram</a>  
+              <a class="font1 font-change" href="https://www.instagram.com/nektar.c.k/" target="_blank"><i class="fab fa-instagram mr-1"></i> Instagram</a>
             </li>
             <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
-              <a class="font1 font-change" href="https://github.com/tuckernickman" target="_blank"><i class="fab fa-github mr-1"></i> Github</a>  
+              <a class="font1 font-change" href="https://github.com/tuckernickman" target="_blank"><i class="fab fa-github mr-1"></i> Github</a>
             </li>
-            <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
-              <a class="font1 font-change" href="https://support.discord.com/hc/en-us/profiles/1511603274242" target="_blank"><i class="fab fa-discord mr-1"></i> Discord</a>  
-            </li>
+            <!-- <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change text-color">
+              <a class="font1 font-change" href="https://support.discord.com/hc/en-us/profiles/1511603274242" target="_blank"><i class="fab fa-discord mr-1"></i> Discord</a>
+            </li> -->
           </ul>
         </div>
       </div>
-      
-        <!-- 
+
+        <!--
         <div class="col-md-12 justify-content-center">
           <h5 class="mb-2 font-weight-bold text-uppercase light-text">Our Mission</h5>
           <h6 class="mb-2 font-weight-bold text-uppercase light-text">
-            to push the world's expectations of us as folx! 
+            to push the world's expectations of us as folx!
           </h6>
         </div> -->
 
         <div class="col-md-12">
           <div class="py-1 justify-content-center align-items-center">
-                <h5 class="mb-1 font-weight-bold text-uppercase font1 font-change text-color"> 
+                <h5 class="mb-1 font-weight-bold text-uppercase font1 font-change text-color">
                   <span class="font1 font-change text-color">&copy;
                   <?php echo date("Y"); ?></span>
                   <span class="font1 font-change"><a class="font1 font-change text-color" href="#">Tucker Nickman</a>
-                  </span>    
+                  </span>
     	        </h5>
           </div>
         </div>
@@ -56,7 +56,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
