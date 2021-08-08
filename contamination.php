@@ -47,17 +47,17 @@
             </div>
         </div>
         
-        <div class="col-lg col-md-8 col-sm-12">
-            <div id="content" class="col-lg col-md-8 col-sm-12">
+        <div class="col-lg col-md col-sm-12">
+            <div id="content" class="col-lg col-md col-sm-12">
                 <a href="" class="field-group-link project-link d-block p-visible">
                     <div class="videoWrapper">
-                        <iframe class="col-lg col-md-8 col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23705.43261498693!2d-112.14558486843758!3d40.7574796781833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752ebe8bd8d7dd5%3A0xc7d420cadfbc302d!2sKennecott%20Tailings%20Pond%20Number%20Two!5e1!3m2!1sen!2sus!4v1597868524793!5m2!1sen!2sus" width="300" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe class="col-lg col-md col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23705.43261498693!2d-112.14558486843758!3d40.7574796781833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752ebe8bd8d7dd5%3A0xc7d420cadfbc302d!2sKennecott%20Tailings%20Pond%20Number%20Two!5e1!3m2!1sen!2sus!4v1597868524793!5m2!1sen!2sus" width="300" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </a>
             </div>
         </div>
         
-        <div class="col-lg col-md-8 col-sm-12">
+        <div class="col-lg col-md col-sm-12">
   	        <ul id="listarrows">
                 <li class="list-group-item bg-transparent border-0 p-0 mb-2 font1 font-change">
                     <a class="font1 font-change" href="/hyperobjects.php"><i class="fas fa-angle-left mr-1"></i></a>  
