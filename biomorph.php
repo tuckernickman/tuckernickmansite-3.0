@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Biomorph</title>
+
+    <?php include "extraheader.php"; ?>
     <?php include "header.php"; ?>
 </head>
 
