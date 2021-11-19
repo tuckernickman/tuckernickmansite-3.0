@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Biomorph</title>
+
+    <?php include "extraheader.php"; ?>
     <?php include "header.php"; ?>
     
     <meta name="description" content="We await a new beginning. Cells divide and multiply creating complex figures, adapting to anthropogenic contamination, their forms fluidly morph, sometimes creating new limbs unknown to us, perhaps only to feel, become with one another, and caress the earth. This is a portal to futurity, what exists beyond human time. ">

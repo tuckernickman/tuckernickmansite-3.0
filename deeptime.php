@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <title>Biomorph</title>
+
+    <?php include "extraheader.php"; ?>
     <?php include "header.php"; ?>
+
+    <meta name="description" content="deep time">
 </head>
 
 <body>
