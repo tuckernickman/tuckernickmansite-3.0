@@ -17,9 +17,9 @@
 
         // include "tidbits.php";
 
-        include "contactform.php"; 
+        // include "contactform.php"; 
 
-        include "datacleanse.php";
+        // include "datacleanse.php";
 
         include "footer.php"; 
     ?>

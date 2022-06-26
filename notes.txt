@@ -377,8 +377,8 @@ function loopThrough($strArray) {
     }
 }
 
-function prntImgArr($strArray)
-{
+function prntImgArr($strArray) {
+
 foreach ($strArray as $i=>$strArray){
 $content[$i] = '<div class="col-sm-4">
 <a href="" class="field-group-link project-link d-block p-visible">
