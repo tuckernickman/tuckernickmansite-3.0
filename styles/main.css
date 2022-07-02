@@ -172,9 +172,9 @@ iframe .video-stream .htm5-video-player {
     align-content:center;
 }
 
-table, th, td {
-    border: none;
-  }
+.table td, .table th {
+    border-top: none;
+}
 
 ul, li {
    list-style-type: none; 
