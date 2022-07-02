@@ -176,6 +176,10 @@ iframe .video-stream .htm5-video-player {
     border-top: none;
 }
 
+.border-bottom {
+    border-bottom: none;
+}
+
 ul, li {
    list-style-type: none; 
    text-decoration: none;
