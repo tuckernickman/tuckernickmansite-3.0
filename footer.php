@@ -1,5 +1,5 @@
 <footer id="footer" class="colored-accent-bkg">
-  <div class="container pt-3 border-bottom">
+  <div class="container pt-3">
     <div class="row light justify-content-center">
       <div class="col-md-9 col-sm-12 d-flex justify-content-center">
         <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-2 justify-content-center">
