@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Tucker Nickman - User Data</title>
-    <?php include "header.php"; ?>
-</head>
+<?php
 
-<body>
-    <?php
-        include "menu.php"; 
+declare(strict_types=1);
 
-        include "database.php";
-        	
-        include "datatable.php";
-
-        $ini_data = parse_ini_file("db.ini");
-
-        get_content($ini_data("contact_table"));
-
-        include "footer.php"; 
-    ?>
-</body>
-</html>
+header('Location: /admin/index.php', true, 302);
+exit;

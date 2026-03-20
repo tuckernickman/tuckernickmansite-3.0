@@ -1,1 +1,12 @@
-*.ini
+# Security-sensitive local config
+db.ini
+config/app.ini
+.env
+.env.*
+
+# Allow committed example templates
+!*.example
+!*.example.*
+
+# Local runtime artifacts
+*.log

@@ -1,0 +1,11 @@
+[database]
+host = localhost
+db_name = your_database
+user = your_database_user
+password = your_database_password
+contact_table = tnickman_form_response
+
+[admin]
+username = admin
+; Generate with: php -r 'echo password_hash("change-me", PASSWORD_DEFAULT), PHP_EOL;'
+password_hash =
