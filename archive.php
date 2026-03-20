@@ -8,7 +8,6 @@
 <body>
     <?php include "menu.php"; ?>
 
-
     <!--home page-->
     <?php include "mainsection1.php"; ?> 
 
