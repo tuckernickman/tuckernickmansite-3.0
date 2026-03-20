@@ -71,3 +71,6 @@
 
 <!--button overlay script-->
 <!-- <script src="js/buttonoverlay.js"></script> -->
+
+<script src="js/font-hover-lock.js"></script>
+
