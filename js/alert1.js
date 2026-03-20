@@ -1,21 +1,32 @@
 function validateForm(){
-    fieldisValid = true;
-    fieldisValidated = 0;
-    for(i = 0; i < document.forms["contactForm"].getElementsByTagName("input").length; i++) {
-        if(document.forms["contactForm"][i].type === "text" || document.forms["contactForm"][i].type === "date") {
-            if (document.forms["contactForm"][i].value === "") {
-                $('.alert').removeClass('d-none').addClass('show');
-                document.forms["contactForm"][i].classList.add("required-input");
-                fieldisValid = false;
-            } else {
-                document.forms["contactForm"][i].classList.remove("required-input");
-                fieldisValidated += 1;
-            }
+    var form = document.forms["contactForm"];
+    var fieldisValid = true;
+
+    // Check every required field regardless of type
+    var elements = form.elements;
+    for (var i = 0; i < elements.length; i++) {
+        var el = elements[i];
+        if (el.type === 'hidden' || el.type === 'submit' || el.type === 'button') {
+            continue;
+        }
+        if (el.hasAttribute('required') && el.value.trim() === '') {
+            el.classList.add('required-input');
+            fieldisValid = false;
+        } else {
+            el.classList.remove('required-input');
         }
     }
 
-    if(fieldisValid){
-        document.forms["contactForm"].submit();
+    if (!fieldisValid) {
+        $('.alert').removeClass('d-none').addClass('show');
+        return;
+    }
+
+    // requestSubmit fires HTML5 constraint validation (e.g. email format)
+    if (form.requestSubmit) {
+        form.requestSubmit();
+    } else {
+        form.submit();
     }
 }
 

@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Biomorph</title>
-    <?php include "header.php"; ?>
-</head>
-<body>
+<?php
 
-    <?php include "biomorphportal.php"; ?>
+declare(strict_types=1);
 
-    <?php include "footer.php"; ?>
-</body>
-</html>
+require __DIR__ . '/pages/newbiomorph.php';

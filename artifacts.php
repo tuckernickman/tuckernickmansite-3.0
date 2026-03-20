@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Artifacts</title>
-    <?php include "header.php"; ?>
-</head>
+<?php
 
-<body>
-    <?php include "menu.php"; ?>
+declare(strict_types=1);
 
-
-    <!--home page-->
-    <?php include "artifacts20.php"?>
-
-    <?php include "footer.php"; ?>
-</body>
-</html>
+require __DIR__ . '/pages/artifacts.php';

@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Archive</title>
-    <?php include "header.php"; ?>
-</head>
+<?php
 
-<body>
-    <?php include "menu.php"; ?>
+declare(strict_types=1);
 
-    <!--home page-->
-    <?php include "mainsection1.php"; ?> 
-
-    <?php include "mainsection2.php"?>
-
-    <?php include "biomorphVids.php"; ?> 
-
-    <?php include "footer.php"; ?>
-</body>
-</html>
+require __DIR__ . '/pages/archive.php';

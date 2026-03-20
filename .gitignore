@@ -10,3 +10,4 @@ config/app.ini
 
 # Local runtime artifacts
 *.log
+config/local.sqlite

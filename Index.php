@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Tucker Nickman - Portfolio Website 2021</title>
-    <?php include "header.php"; ?>
-</head>
- 
-<body>
-    <?php include "menu.php"; ?>
+<?php
 
-    <!--home page-->
+declare(strict_types=1);
 
-    <?php include "randimg.php"; ?>
-
-    <?php include "mainsection1.php"; ?> 
-
-    <?php include "mainsection2.php";?>
-
-    <?php include "footer.php"; ?>
-</body>
-</html>
+require __DIR__ . '/pages/Index.php';

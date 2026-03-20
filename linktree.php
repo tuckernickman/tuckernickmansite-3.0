@@ -1,33 +1,5 @@
-<!DOCTYPE html>
+<?php
 
-<html lang="en">
+declare(strict_types=1);
 
-<head>
-    <title>Tucker Nickman - Portfolio Website 2021</title>
-    <?php include "header.php"; ?>
-</head>
- 
-<body>
-
-    <?php include "menu.php"; ?>
-
-    <!--linktree-->
-
-    <?php include "branches.php";?>
-
-    <!-- home / tuckernickman.com -->
-
-    <!--ig--> <!--gh-->
-
-    <!--yt--> <!--sc-->
-
-    <!--tt--> <!--superfund site-->
-
-    <!--os--> <!--f.a-->
-    
-    <!--fhd links--> <!--other-->
-
-    <?php include "footer.php"; ?>
-
-</body>
-</html>
+require __DIR__ . '/pages/linktree.php';

@@ -1,4 +1,7 @@
-<FilesMatch "\.(ini)$">
+Options -Indexes
+
+# Block access to sensitive config files
+<FilesMatch "\.(ini|sql)$">
     Require all denied
 </FilesMatch>
 
@@ -6,4 +9,22 @@
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Block direct browser access to internal-only folders
+    RewriteRule ^(pages|middleware|config|includes)(/|$) - [F,L]
+
+    # Serve existing files and directories (assets, admin, root wrappers) as-is
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Clean URLs: /about → /about.php  (only when root wrapper exists)
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L]
 </IfModule>

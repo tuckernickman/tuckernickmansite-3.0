@@ -2,17 +2,7 @@
 
 ## Prerequisite
 
-If `php` is not installed on macOS:
-
-```bash
-brew install php
-```
-
-Verify installation:
-
-```bash
-php -v
-```
+PHP is installed via Homebrew. Verify with `php -v`.
 
 From the project root, start the built-in PHP server:
 
@@ -22,8 +12,21 @@ php -S localhost:8000 -t .
 
 Then open:
 
-- http://localhost:8000/Index.php
+- http://localhost:8000/index.php
+- http://localhost:8000/about.php
 - http://localhost:8000/admin/login.php
+
+## Current Structure
+
+- Public page sources are in `pages/`.
+- Root files (for example `index.php`, `about.php`, `videos.php`) are compatibility wrappers that require files from `pages/`.
+
+## VS Code Task Workflow
+
+Use Terminal > Run Task:
+
+- Serve PHP (localhost:8000)
+- Generate Admin Password Hash
 
 ## Admin Setup
 

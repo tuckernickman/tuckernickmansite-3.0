@@ -2,12 +2,15 @@
     <div class="col section-content perspective">
         <div>
             <?php
-            $imagesDir = 'assets/img/*';
+            $images = glob(__DIR__ . '/assets/img/*/*.{jpg,jpeg,png,gif}', GLOB_BRACE) ?: [];
 
-            $images = glob($imagesDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-
-            $randomImage = $images[array_rand($images)]; // See comments
-            ; ?>
+            // Avoid fatal errors when no image files are found.
+            if ($images !== []) {
+                $randomImage = $images[array_rand($images)];
+            } else {
+                $randomImage = null;
+            }
+            ?>
     </div>
 </div>
 </section>

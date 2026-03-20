@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Biomorph</title>
-    
-    <?php include "extraheader.php"; ?>
-    <?php include "header.php"; ?>
+<?php
 
-    <meta name="description" content="copper morph">
-</head>
+declare(strict_types=1);
 
-<body>
-
-    <?php include "menu.php"; ?>
-
-    <?php include "kombucha.php"; ?>
-    
-    <?php include "footer.php"; ?>
-
-</body>
+require __DIR__ . '/pages/catchingthesun.php';

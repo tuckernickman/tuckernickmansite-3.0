@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>2020</title>
-    <?php include "header.php"; ?>
-</head>
+<?php
 
-<body>
-    <?php include "menu.php"; ?>
+declare(strict_types=1);
 
-    <!--home page-->
-
-    <?php //include "section1.php"; ?>
-
-    <?php include "imgGrid20.php"?>
-
-    <?php //include "content1.php"; ?> 
-
-    <?php include "footer.php"; ?>
-</body>
-</html>
+require __DIR__ . '/pages/2020.php';
