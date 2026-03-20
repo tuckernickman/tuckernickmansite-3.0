@@ -10,6 +10,8 @@
 
     <!--home page-->
 
+    <?php include "randimg.php"; ?>
+
     <?php include "mainsection1.php"; ?> 
 
     <?php include "mainsection2.php";?>
